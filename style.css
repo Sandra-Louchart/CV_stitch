@@ -7,7 +7,40 @@
     --dark: #181c1c;
     --font-family: 'EB Garamond', serif;
 }
-.years {
-    background-color: var(--main-color);
 
+.experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.year {
+    background-color: deeppink;
+
+
+}
+
+.experiences{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top:64px;
+}
+.job{
+    background-color: cyan;
+
+}
+
+.company{
+    background-color: chartreuse;
+
+}
+
+.description{
+    background-color: orangered;
 }
