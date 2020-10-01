@@ -16,28 +16,33 @@ body {
 }
 .alignh2 {
     text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
 .alignh3 {
     text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
-h3,h2{
-     border: 2px #2e98bf;
+.h3titleskill,.h2titleskill{
+     background-color: var(--main-color);
      border-radius: 5px;
      background-size: 30px;
      padding-left : 15px;
      padding-right : 15px;
      display : inline-block;
 
+
  }
 
-.titreh2:hover{
+/*.titreh2:hover{
 
     background-color: #2e98bf;
-    text-align: center;
+    text-align: center;*/
 
 }
 
-.titreh3:hover{
+.h3titleskill:hover{
 
     background-color: #2e98bf;
     text-align: center;
@@ -48,40 +53,50 @@ h3,h2{
 
 .skill {
     display: flex;
-    flex-wrap: wrap;
+}
+
+
+.skill1 {
+    display: flex;
+/*    flex-wrap: wrap; */
+    justify-content: center;
 
 }
 
 .skilldetail1{
     flex: 1;
-    border-radius: 5px;
+    border-radius: 40px;
+    margin-bottom: 10px;
     background-size: 30px;
     padding-left : 30px;
     padding-right : 30px;
+    padding-bottom: 10px;
+    margin-right : 30px;
+    border: solid var(--main-color);
+    box-shadow: 10px 10px 5px 0 #656565;
+    transition-timing-function : ease-out;
+    transition-property: flex,background-color;
+    transition-duration: 0.8s;
+    overflow: hidden;
+    height: 12em;
+    background-color:var(--light);
+
+
+
+
 }
 
-.skilldetail2{
-    flex: 1;
-    border-radius: 5px;
-    background-size: 30px;
-    padding-left : 30px;
-    padding-right : 30px;
-    padding-top: ; 30px;
-    padding-bottom: 30px;
-}
-.skilldetail3 {
-    flex: 1;
+.skilldetail1:hover{
+    flex: 1.5;
+    background-color:#f7f9fa;
 
-    border-radius: 5px;
-    background-size: 30px;
-    padding-left : 30px;
-    padding-right : 30px;
 }
-.skilldetail4{
-    flex: 1;
-    border-radius: 5px;
-    background-size: 30px;
-    padding-left : 30px;
-    padding-right : 30px;
+.titreskilldetail{
+    transition-property: font-size;
+    transition-duration: 0.8s;
+}
+.titreskilldetail:hover{
+    font-size : 28px;
+    font-weight: bold;
 }
 
