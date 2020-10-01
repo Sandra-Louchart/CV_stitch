@@ -1,0 +1,13 @@
+:root {
+    --main-color: #2e98bf;
+    --secondary-color: #9dc5d4;
+    --space-padding: 8px;
+    --space-margin: 8px;
+    --light: #d9dee2;
+    --dark: #181c1c;
+    --font-family: 'EB Garamond', serif;
+}
+.years {
+    background-color: var(--main-color);
+
+}
