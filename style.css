@@ -7,40 +7,42 @@
     --dark: #181c1c;
     --font-family: 'EB Garamond', serif;
 }
-
-.experience {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+*{
+    background-color: var(--secondary-color);
+    color:var(--dark);
 }
-
-
-.year {
-    background-color: deeppink;
-
-
+.experience{
+    display:flex;
+    flex-flow:row wrap;
+    border-bottom:1px solid;
+    padding-bottom : 10px;
+    margin-botoom:10px;
 }
-
 .experiences{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    margin-top:64px;
+    display:flex;
+    flex-flow:column wrap;
+    flex: 0 0 70%;
+    margin-left: auto;
 }
-.job{
-    background-color: cyan;
-
+.year{
+    flex:0 0 20%;
+    font-family: var(--font-family);
+    font-size: 40px;
 }
-
-.company{
-    background-color: chartreuse;
-
-}
-
 .description{
-    background-color: orangered;
+    display:flex;
+    flex-flow:column wrap;
+    flex:0 0 70%;
+    margin-left: auto;
+    font-family: var(--font-family);
+}
+
+.job{
+    font-family: var(--font-family);
+    font-size: 24px;
+}
+.company{
+    font-family: var(--font-family);
+    font-size: 24px;
+
 }

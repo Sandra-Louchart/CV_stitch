@@ -17,45 +17,39 @@
             <p>2000-2005</p>
         </div>
         <div class ="experiences">
-            <div class="job">
-                <p>Destructeur de la terre</p>
-            </div>
-            <div class="company">
-                <p>kagouroo land</p>
-            </div>
-            <div class="description">
-                <p>.Ultimum ad bella ita ignorantes saevissima vilitate puta abunde quos sed a nec nec eluxisse puta Romana non adsimulata quae.</p>
-            </div>
+            <p class="job">Destructeur de la terre</p>
+            <p class="company">Jumba entreprise</p>
+        </div>
+        <div class="description">
+            <p>Je suis venu ici pour détruire le monde. J'ai pu créer de nombreux projet pour arriver à mon objectif final...</p>
         </div>
     </div>
-  <!--  <div class="experience">
+    <div class="experience">
         <div class="year">
             <p>2005-2018</p>
         </div>
-        <div class="job">
-            <p>chasseur de prime</p>
-        </div>
-        <div class="company">
-            <p>stickland</p>
+        <div class="experiences">
+            <p class="job">Chasseur de prime</p>
+            <p class="company">Hawaï academy</p>
         </div>
         <div class="description">
-            <p>Ultimum ad bella ita ignorantes saevissima vilitate puta abunde quos sed a nec nec eluxisse puta Romana non adsimulata quae.</p>
+            <p>Ne voulant plus quitter la terre, j'ai mis en place une reconversion professionnelle afin d'aider la terre à pouvoir
+            vivre avec des expériences extrateresstre</p>
         </div>
     </div>
     <div class="experience">
         <div class="year">
             <p>2018-2020</p>
         </div>
-        <div class="job">
-            <p>professeur</p>
-        </div>
-        <div class="company">
-            <p>vosio</p>
+        <div class="experiences">
+            <p class="job">Stagiaire professeur des écoles</p>
+            <p class="company">Education nationale</p>
         </div>
         <div class="description">
-            <p>Ultimum ad bella ita ignorantes saevissima vilitate puta abunde quos sed a nec nec eluxisse puta Romana non adsimulata quae.</p>
+            <p>Après avoir attraper toutes les expériences et survécue à toutes mes aventures j'ai décidé d'apprendre
+            au plus jeune </p>
         </div>
-    </div>-->
+    </div>
 </section>
 </body>
 </html>
