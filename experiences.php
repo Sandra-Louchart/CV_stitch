@@ -51,6 +51,21 @@
         </div>
     </div>
 </section>
+<section >
+    <h2>Mes recommendations : </h2>
+    <figure class="reference">
+        <img src="https://vignette.wikia.nocookie.net/disney/images/3/3d/Profile_-_Jumba.jpg/revision/latest/scale-to-width-down/515?cb=20190312074022" alt="Jumba Jookiba">
+        <figcaption>Ma plus belle création, je lui fait confiance</figcaption>
+    </figure>
+    <figure class="reference">
+        <img src="https://vignette.wikia.nocookie.net/disney/images/1/1f/Profile_-_Lilo.png/revision/latest?cb=20190312072611" alt="Lilo Pelekai">
+        <figcaption>J'ai vécue de belles expériences avec lui </figcaption>
+    </figure>
+    <figure class="reference">
+        <img src="https://vignette.wikia.nocookie.net/disney/images/9/9f/Profile_-_Grand_Councilwoman.jpeg/revision/latest/scale-to-width-down/516?cb=20190321135914" alt="Grande conseillère">
+        <figcaption>Je n'aime pas crimnel... Stitch a changé</figcaption>
+    </figure>
+</section>
 </body>
 </html>
 
