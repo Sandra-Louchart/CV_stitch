@@ -1,0 +1,87 @@
+:root {
+    --main-color: #2e98bf;
+    --secondary-color: #9dc5d4;
+    --space-padding: 8px;
+    --space-margin: 8px;
+    --light: #d9dee2;
+    --dark: #181c1c;
+}
+
+body {
+    background-color : var(--secondary-color);
+    font-family: 'EB Garamond', serif;
+    font-size : 20px;
+    color : var(--dark);
+
+}
+.alignh2 {
+    text-align: center;
+}
+.alignh3 {
+    text-align: center;
+}
+h3,h2{
+     border: 2px #2e98bf;
+     border-radius: 5px;
+     background-size: 30px;
+     padding-left : 15px;
+     padding-right : 15px;
+     display : inline-block;
+
+ }
+
+.titreh2:hover{
+
+    background-color: #2e98bf;
+    text-align: center;
+
+}
+
+.titreh3:hover{
+
+    background-color: #2e98bf;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.skilldetail1{
+    flex: 1;
+    border-radius: 5px;
+    background-size: 30px;
+    padding-left : 30px;
+    padding-right : 30px;
+}
+
+.skilldetail2{
+    flex: 1;
+    border-radius: 5px;
+    background-size: 30px;
+    padding-left : 30px;
+    padding-right : 30px;
+    padding-top: ; 30px;
+    padding-bottom: 30px;
+}
+.skilldetail3 {
+    flex: 1;
+
+    border-radius: 5px;
+    background-size: 30px;
+    padding-left : 30px;
+    padding-right : 30px;
+}
+.skilldetail4{
+    flex: 1;
+    border-radius: 5px;
+    background-size: 30px;
+    padding-left : 30px;
+    padding-right : 30px;
+}
+
