@@ -20,6 +20,7 @@ nav {
     align-items: center;
     background-color: var(--main-color);
     position: fixed;
+    top: 0;
     width: 100vw;
     font-family: var(--font-family);
 }
