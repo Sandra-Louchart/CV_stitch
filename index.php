@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="style_navbarre.css">
     <link rel="stylesheet" href="style_footer.css">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Cv de Stitch</title>
 </head>
-<body>
     <header>
         <nav>
             <a href="#home" class="home"><img src="img/profil.png" alt="Home"></a>
@@ -36,34 +35,19 @@
             </div>
         </nav>
 
+        <div class="profilePicture">
+            <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+        </div>
 
+        <div class="nameOfStitch">
+            <h1>Expérience-626 "Stitch"</h1>
+            <h2>Professeur de Français</h2>
+        </div>
+        <div class="borderLine">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</header>
+        </div>
+    </header>
+    <body>
 
 
 
