@@ -295,21 +295,6 @@ figcaption{
 
 
 /* Footer */
-:root {
-    --main-color: #2e98bf;
-    --secondary-color: #9dc5d4;
-    --space-padding: 8px;
-    --space-padding2: 16px;
-    --space-margin: 8px;
-    --light: #d9dee2;
-    --dark: #181c1c;
-    --font-family: 'EB Garamond', serif;
-}
-
-body {
-    margin: 0;
-}
-
 li {
     list-style: none;
 }
@@ -357,3 +342,28 @@ footer {
 }
 
 
+
+/* Contact */
+.contact{
+    font-family: var(--font-family);
+    font-size: 24px;
+
+}
+input, textarea {
+    font-family: var (--font-family);
+    width:100%;
+    padding: 16px;
+    border: :8px solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top:8px;
+    margin-bottom: 16px;
+    resize:vertical;
+}
+#btn{
+    background-color: var(--main-color);
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+
+}
