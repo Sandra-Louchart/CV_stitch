@@ -48,7 +48,7 @@
         </div>
     </header>
     <body>
-        <section class="experien">
+        <section class="experien" id="experience">
             <h2>Mes expériences:</h2>
             <div class="experience">
                 <div class="year">
