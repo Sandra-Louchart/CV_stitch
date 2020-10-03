@@ -42,6 +42,7 @@ nav {
     height: 60px;
     width: 60px;
     padding-left: var(--space-padding2);
+    padding-top: var(--space-padding);
 }
 
 .menu-items  {
@@ -69,15 +70,10 @@ a.contact {
     padding-right: var(--space-padding4);
 }
 
-
 nav a:hover {
-    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     height: 80%;
-    background: rgba(17, 24, 69, 0.65);
-    overflow: hidden;
-    box-shadow: 0 20px 50px var(--secondary-color);
     color: var(--light);
 }
 
