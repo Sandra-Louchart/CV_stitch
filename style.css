@@ -7,16 +7,17 @@
     --space-margin: 8px;
     --light: #d9dee2;
     --dark: #181c1c;
-    --font-family: 'EB Garamond', serif;
+    --font-text: 'EB Garamond', serif;
+    --font-title: 'Architects Daughter', serif;
+    --font-size-nav: 24px;
     --nav-height: 75px;
 }
 
 body {
     background-color : var(--secondary-color);
-    font-family: 'EB Garamond', serif;
+    font-family: var(--font-text);
     margin: 0;
     padding-top: var(--nav-height);
-
 }
 
 
@@ -49,7 +50,7 @@ nav {
     display: flex;
     align-items: center;
     height: var(--nav-height);
-    font-size: 24px;
+    font-size: var(--font-size-nav);
 }
 
 .items {
@@ -80,13 +81,13 @@ nav a:hover {
 .burger {
     display: none;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 40px;
     padding-right: var(--space-padding2);
 }
 
 .burger div {
-    height: 8px;
+    height: 4px;
     width: 40px;
     background-color: var(--dark);
     border-radius: 8px;
@@ -98,10 +99,10 @@ nav a:hover {
 
 .nav-nom h2 {
     margin: 0;
-    margin-top: 8px;
+    margin-top: var(--space-margin);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .items {
         display: none;
     }
@@ -112,6 +113,7 @@ nav a:hover {
 
     a.home-burger {
         display: block;
+        height: var(--nav-height)
     }
 
     a.home-burger img {
@@ -135,7 +137,7 @@ nav a:hover {
         top: 0;
         left: 0;
         background-color: var(--main-color);
-        font-size: 24px;
+        font-size: var(--font-size-nav);
     }
 
     .items:target .close {
@@ -143,7 +145,7 @@ nav a:hover {
         position: fixed;
         top: 8px;
         right: 8px;
-        font-size: 24px;
+        font-size: var(--font-size-nav);
     }
 }
 
@@ -174,7 +176,6 @@ h1, h2 {
     background-color: var(--main-color);
     padding: 20px;
     border-radius: 10px;
-
 }
 
 h2 {

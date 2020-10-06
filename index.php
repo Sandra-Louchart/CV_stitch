@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <title>Cv de Stitch</title>
 </head>
     <header>
@@ -24,7 +25,7 @@
                     <a href="#education">Formation</a>
                     <a href="#recommendation">Recommendation</a>
                     <a href="#contact" class="contact">Contact</a>
-                    <a href="#" class="close">X</a>
+                    <a href="#" class="close"><img src="img/close.png" alt="close"></a>
                 </div>
                 <a class = "burger" href = "#menu">
                     <div></div>
