@@ -446,34 +446,26 @@ figcaption{
 
 
 /* Footer */
-li {
-    list-style: none;
-}
-
-.fab {
-    padding: var(--space-padding2);
-    color: var(--light);
-}
-
-.quote {
-    padding: var(--space-padding);
-}
-
-p {
-    margin: 0;
-    color: var(--dark);
-    padding: var(--space-padding);
-    font-family: var(--font-family);
-}
-
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--main-color);
-    height: 80px;
-    padding: var(--space-padding);
+    height: 40px;
+    padding: var(--space-padding2);
+    margin-top: var(--space-margin);
+}
 
+.quote {
+    padding: var(--space-padding);
+    display: block ruby;
+}
+
+.quote p {
+    margin: 0;
+    color: var(--dark);
+    padding-left: var(--space-padding);
+    font-family: var(--font-family);
 }
 
 .logo {
@@ -482,7 +474,19 @@ footer {
     align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+.logo li {
+    list-style: none;
+}
+
+.fab {
+    padding: var(--space-padding2);
+    color: var(--light);
+}
+
+@media screen and (max-width: 800px) {
+    .family {
+        display: none;
+    }
     .logo {
         justify-content: flex-end;
     }
@@ -491,6 +495,7 @@ footer {
         padding: var(--space-padding);
     }
 }
+
 
 
 
