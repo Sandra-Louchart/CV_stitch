@@ -3,16 +3,22 @@
     --secondary-color: #9dc5d4;
     --space-padding: 8px;
     --space-padding2: 16px;
+    --space-padding4: 32px;
     --space-margin: 8px;
     --light: #d9dee2;
     --dark: #181c1c;
     --font-family: 'EB Garamond', serif;
     --font-familyh: 'Architects Daughter', sans-serif;
+    --font-text: 'EB Garamond', serif;
+    --font-title: 'Architects Daughter', sans-serif;
+    --font-size-nav: 24px;
+    --nav-height: 75px;
 }
 body {
     background-color : var(--secondary-color);
-    font-family: 'EB Garamond', serif;
+    font-family: var(--font-text);
     margin: 0;
+    padding-top: var(--nav-height);
 }
 /* Barre de navigation */
 nav {
@@ -20,21 +26,29 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: var(--main-color);
+    height: var(--nav-height);
     position: fixed;
     top: 0;
     width: 100vw;
     font-family: var(--font-family);
+    padding-right: var(--space-padding);
+
+    background: var(--main-color);
+    overflow: hidden;
+    box-shadow: 0 8px 8px var(--main-color);
 }
 .home img {
     height: 60px;
     width: 60px;
     padding-left: var(--space-padding2);
+    padding-top: var(--space-padding);
 }
 .menu-items  {
     display: flex;
     align-items: center;
-    height: 76px;
-    font-size: 24px;
+    height: var(--nav-height);
+    font-size: var(--font-size-nav);
+    font-family: var(--font-title);
 }
 .items {
     display: flex;
@@ -48,20 +62,25 @@ nav a {
     text-decoration: none;
     color: var(--dark);
 }
+a.contact {
+    padding-right: var(--space-padding4);
+}
+
 nav a:hover {
-    background-color: #a3819a;
     display: flex;
     align-items: center;
     height: 80%;
+    color: var(--light);
 }
 .burger {
     display: none;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 40px;
+    padding-right: var(--space-padding2);
 }
 .burger div {
-    height: 8px;
+    height: 4px;
     width: 40px;
     background-color: var(--dark);
     border-radius: 8px;
@@ -69,7 +88,12 @@ nav a:hover {
 .close, a.home-burger, .nav-nom h2 {
     display: none;
 }
-@media screen and (max-width: 600px) {
+.nav-nom h2 {
+    margin: 0;
+    margin-top: var(--space-margin);
+}
+
+@media screen and (max-width: 800px) {
     .items {
         display: none;
     }
@@ -78,11 +102,15 @@ nav a:hover {
     }
     a.home-burger {
         display: block;
+        height: var(--nav-height)
     }
     a.home-burger img {
         height: 80px;
         width: 80px;
         padding-top: var(--space-padding2);
+    }
+    a.contact {
+        padding: 0;
     }
     .items:target {
         display: flex;
@@ -95,16 +123,60 @@ nav a:hover {
         top: 0;
         left: 0;
         background-color: var(--main-color);
-        font-size: 24px;
+        font-size: var(--font-size-nav);
     }
     .items:target .close {
         display: block;
         position: fixed;
         top: 8px;
         right: 8px;
-        font-size: 24px;
+        font-size: var(--font-size-nav);
     }
 }
+
+/* header */
+header {
+    background-color: var(--secondary-color)
+}
+
+.imgProfile {
+    margin-top: 32px;
+    width: 25%;
+    height: auto;
+}
+
+.profilePicture {
+    display: flex;
+    justify-content: center;
+}
+
+.nameOfStitch {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    background-color: var(--main-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 80px;
+}
+
+.borderLine {
+    border-radius: 2px;
+    margin: 0 auto;
+
+    width  : 100%;
+    height : 40px;
+    background-color: #a8789b;
+}
+
+
 /*SECTION EXPERIENCE AND TRAINING*/
 .experiences {
     justify-content: space-around;
@@ -138,8 +210,8 @@ nav a:hover {
     height: 12em;
     background-color:var(--light);
     color : var(--dark);
-
 }
+
 .company:hover{
     /*flex: 1.5;*/
     background-color:#f7f9fa;
@@ -251,6 +323,7 @@ nav a:hover {
     font-size : 28px;
     font-weight: bold;
 }*/
+
 /*SECTION RECOMMANDATION*/
 .reference{
     flex : 0 1 50%;
@@ -268,44 +341,63 @@ figcaption{
     font-family: var(--font-family);
     font-size: 24px;
 }
+
 /* Footer */
-li {
-    list-style: none;
-}
-.fab {
-    padding: var(--space-padding2);
-    color: var(--light);
-}
-.quote {
-    padding: var(--space-padding);
-}
-p {
-    margin: 0;
-    color: var(--dark);
-    padding: var(--space-padding);
-    font-family: var(--font-family);
-}
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--main-color);
-    height: 80px;
+    height: 40px;
+    padding: var(--space-padding2);
+    margin-top: var(--space-margin);
+}
+.quote {
     padding: var(--space-padding);
+    display: block ruby;
+}
+.quote p {
+    margin: 0;
+    color: var(--dark);
+    padding-left: var(--space-padding);
+    font-family: var(--font-title);
 }
 .logo {
     margin: 0;
     display: flex;
     align-items: center;
 }
-@media screen and (max-width: 500px) {
+
+.logo li {
+    list-style: none;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.fab {
+    padding: var(--space-padding2);
+    color: var(--light);
+}
+
+@media screen and (max-width: 800px) {
+    .family {
+        display: none;
+    }
     .logo {
         justify-content: flex-end;
     }
     .fab {
         padding: var(--space-padding);
     }
+
+    .Ohana {
+        padding-left: 0;
+        font-size: 12px;
+    }
 }
+
 /* Contact */
 .contact{
     font-family: var(--font-family);
