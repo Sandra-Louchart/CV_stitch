@@ -359,6 +359,14 @@ h2 {
 }
 
 /*SECTION RECOMMANDATION*/
+.myRecommendation{
+    font-family: var(--font-familyh);
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+
+}
 .reference{
     flex : 0 1 50%;
     display: flex;

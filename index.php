@@ -51,7 +51,7 @@
 <body>
 <hr>
 <section class="myJob" id="experience">
-    <h2 class="myExperiences">Expériences:</h2>
+    <h2 class="myExperiences">Expériences</h2>
     <div class="experiences">
         <div class="company">
             <p class="job">2000-2002 <br>
@@ -143,9 +143,9 @@
     </div>
 </section>
 
-
+<hr>
 <section>
-    <h2>Mes recommendations : </h2>
+    <h2 class="myRecommendation" id="recommendation">Recommandations  </h2>
     <figure class="reference">
         <img src="https://vignette.wikia.nocookie.net/disney/images/3/3d/Profile_-_Jumba.jpg/revision/latest/scale-to-width-down/515?cb=20190312074022"
              alt="Jumba Jookiba">
@@ -171,7 +171,7 @@
 
 
 <section class="contact">
-    <h2 id="contact">Ecrivez moi </h2>
+    <h2 id="contact" class="contact">Ecrivez moi </h2>
     <form action="mailto:stitch@example.com" method="post">
         <div>
             <label for="name">Nom :</label>
