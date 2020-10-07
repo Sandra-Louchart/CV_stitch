@@ -14,6 +14,7 @@
     --font-size-nav: 24px;
     --nav-height: 75px;
 }
+
 body {
     background-color : var(--secondary-color);
     font-family: var(--font-text);
@@ -158,7 +159,7 @@ header {
 }
 
 h1, h2 {
-    background-color: var(--main-color);
+   /* background-color: var(--main-color);*/
     padding: 20px;
     border-radius: 10px;
 }
@@ -412,10 +413,13 @@ input, textarea {
     margin-top:8px;
     margin-bottom: 16px;
     resize:vertical;
+    font-size: 16px;
 }
 #btn{
     background-color: var(--main-color);
     padding: 16px 24px;
     border: none;
     border-radius: 8px;
+    font-family: var(--font-family);
+    font-size: 24px;
 }

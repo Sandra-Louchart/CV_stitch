@@ -49,6 +49,7 @@
     </div>
 </header>
 <body>
+<hr>
 <section class="myJob" id="experience">
     <h2 class="myExperiences">Expériences:</h2>
     <div class="experiences">
@@ -82,6 +83,7 @@
         </div>
     </div>
 </section>
+<hr>
 <div class="alignh2">
     <h2 class="h2titleskill"> Compétences</h2>
 </div>
