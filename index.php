@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <title>Cv de Stitch</title>
@@ -25,8 +25,8 @@
                 <a href="#skill">Compétences</a>
                 <a href="#education">Formation</a>
                 <a href="#recommendation">Recommendation</a>
-                <a href="#contact">Contact</a>
-                <a href="#" class="close">X</a>
+                <a href="#contact" class="contact">Contact</a>
+                <a href="#" class="close"><img src="img/close.png" alt="close"></a>
             </div>
             <a class="burger" href="#menu">
                 <div></div>
@@ -78,8 +78,7 @@
             <p class="job">2018-2020 <br>
                 Stagiaire professeur des écoles <br> Education nationale</p>
             <p class="description">Après avoir attraper toutes les expériences et survécue à toutes mes aventures j'ai
-                décidé d'apprendre
-                au plus jeune </p>
+                décidé d'apprendre au plus jeune </p>
         </div>
     </div>
 </section>
@@ -165,6 +164,7 @@
              alt="Reuben">
         <figcaption>J'étais trop occuper à manger mais stitch est plutôt compétent</figcaption>
     </figure>
+
 </section>
 
 
@@ -191,8 +191,16 @@
 
 
 <footer>
-
-
+    <div class=quote>
+        <p class="Ohana">"OHANA" signifie "FAMILLE. </p>
+        <p class="family">Famille signifie que personne ne doit être abandonné, ni oublié.</p>
+    </div>
+    <div class="logo">
+        <li><a href="https://www.facebook.com/StichOfficia/" class="fab fa-facebook-f fa-2x"></a></li>
+        <li><a href="https://twitter.com/hashtag/InternationalStitchDay?src=hashtag_click" class="fab fa-twitter fa-2x"></a></li>
+        <li><a href="https://www.instagram.com/stitch_disney626/?hl=fr" class="fab fa-instagram fa-2x"></a></li>
+        <li><a href="https://fr.linkedin.com/" class="fab fa-linkedin-in fa-2x"></a></li>
+    </div>
 </footer>
 </body>
 </html>
