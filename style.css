@@ -178,7 +178,7 @@ h2 {
 }
 
 
-/*SECTION EXPERIENCE AND TRAINING*/
+/*SECTION EXPERIENCE */
 .experiences {
     justify-content: space-around;
     display: flex;
@@ -242,29 +242,15 @@ h2 {
 
 }
 /* Compétences */
-.card {
-    border: 2px solid crimson;
-    width: 35%;
-    margin: 20px;
-    padding-bottom: 0px;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    background-size: 30px;
-    box-shadow: 2px 2px 5px 0 #656565;
-    overflow: hidden;
-    height: 12em;
-    background-color:var(--light);
-    color : var(--dark);
-}
 .alignh2 {
     text-align: center;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 .alignh3 {
     text-align: center;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
 .h3titleskill,.h2titleskill{
     background-color: var(--main-color);
@@ -276,11 +262,6 @@ h2 {
     color : var(--dark);
     font-family: var(--font-familyh)
 }
-.h3titleskill:hover{
-    background-color: #2e98bf;
-    text-align: center;
-    flex-wrap: wrap;
-}
 .icone {
     width: 1em;
 }
@@ -289,8 +270,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 }
-.detailskill {
-}
+
 .skilldetail1{
     flex: 0.5;
     border-radius: 4px;
@@ -301,6 +281,7 @@ h2 {
     padding-bottom: 10px;
     margin-right : 10%;
     margin-left : 10%;
+    text-align: center ;
     box-shadow: 2px 2px 5px 0 #656565;
     transition-timing-function : ease-in-out;
     transition-property:background-color;
@@ -311,19 +292,71 @@ h2 {
     color : var(--dark);
 }
 .skilldetail1:hover{
-    /*flex: 1.5;*/
     background-color:#f7f9fa;
 }
+@media screen and (max-width: 800px) {
+    .skill1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skilldetail1{
+        flex-direction: column;
+        align-items: center;
+
+    }}
 .titreskilldetail{
     text-align: center;
     font-size : 22px;
     font-style: italic;
     font-family: var(--font-familyh)
 }
-/*.titreskilldetail:hover{
-    font-size : 28px;
-    font-weight: bold;
-}*/
+/*SECTION EDUCATION*/
+
+.experiences {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.highschool{
+    flex: 0.5;
+    border-radius: 4px;
+    margin-bottom: 28px;
+    background-size: 28px;
+    padding-left : 28px;
+    padding-right : 28px;
+    padding-bottom: 8px;
+    margin-right : 10%;
+    margin-left : 10%;
+    box-shadow: 2px 2px 5px 0 #656565;
+    transition-timing-function : ease-in-out;
+    transition-property:background-color;
+    transition-duration: 0.8s;
+    overflow: hidden;
+    height: 14em;
+    background-color:var(--light);
+    color : var(--dark);
+}
+.detaileducation {
+    text-align: center;
+}
+.highschool:hover{
+
+    background-color:#f7f9fa;
+}
+.studyyear{
+    text-align: center;
+    font-size : 22px;
+    font-style: italic;
+    font-family: var(--font-familyh);
+}
+@media screen and (max-width: 800px) {
+    .experiences{
+        flex-direction: column;
+    }
+    .description {
+    }
+
+}
 
 /*SECTION RECOMMANDATION*/
 .reference{
