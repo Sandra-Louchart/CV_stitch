@@ -64,6 +64,7 @@ nav a {
 }
 a.contact {
     padding-right: var(--space-padding4);
+    font-family: var(--font-title);
 }
 
 nav a:hover {
@@ -187,8 +188,12 @@ header {
     transform: scale(1.3);
     transition: 1s all;
 }
+.hibiscusButtons1 {
+    margin-bottom: 5%;
+}
 .hibiscusButtons2 {
     order: 3;
+    margin-bottom: 5%;
 }
 .nameParts {
     font-family: var(--font-title);

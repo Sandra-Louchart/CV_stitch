@@ -24,7 +24,7 @@
                 <a href="#experience">Expériences</a>
                 <a href="#skill">Compétences</a>
                 <a href="#education">Formation</a>
-                <a href="#recommendation">Recommendation</a>
+                <a href="#recommendation">Recommendations</a>
                 <a href="#contact" class="contact">Contact</a>
                 <a href="#" class="close"><img src="img/close.png" alt="close"></a>
             </div>
@@ -38,7 +38,7 @@
 
     <div class="headerPart1">
         <div class="profilePicture">
-            <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+            <img src="img/profil.png" alt="imgProfile" class="imgProfile">
         </div>
         <div class="hibiscusButtons1">
             <figure>
@@ -53,7 +53,7 @@
                 <a href="professionalSkill">
                     <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
                 </a>
-                <figcaption class="nameParts">Professionelles</figcaption>
+                <figcaption class="nameParts">Professionnelles</figcaption>
             </figure>
         </div>
     </div>
@@ -75,7 +75,7 @@
         </div>
         <p class="infoContacts">Stitch Pelekai</p>
         <p class="infoContacts">Impasse des hibiscus, Hawaï 96800</p>
-        <p class="infoContacts">stitch@example.com</p>
+        <p class="infoContacts">stitch@edisney.com</p>
         <div class="jobOfStitch">
             <figure>
                 <a href="recommendation">
@@ -95,18 +95,18 @@
 </header>
 <body>
 <section class="myJob" id="experience">
-    <h2 class="myExperiences">Expériences:</h2>
+    <h2 class="myExperiences">Expériences :</h2>
     <div class="experiences">
         <div class="company">
             <p class="job">2000-2002 <br>
                 Expérience 628 <br> Jumba industrie</p>
-            <p class="description">J'ai été la fabuleuse expérience de Jumba durant 2 ans avant de m'enfuire pour
+            <p class="description">J'ai été la fabuleuse expérience de Jumba durant 2 ans avant de m'enfuir pour
                 eviter une mort certaine</p>
         </div>
         <div class="company">
             <p class="job">2002-2005 <br>
                 Destructeur <br> Jumba entreprise</p>
-            <p class="description">Je suis venu ici pour détruire le monde. J'ai pu créer de nombreux projet pour
+            <p class="description">Je suis venu ici pour détruire le monde. J'ai pu créer de nombreux projets pour
                 arriver à mon objectif
                 final...</p>
         </div>
@@ -117,29 +117,29 @@
                 Chasseur de prime <br> Hawaï academy</p>
             <p class="description">Ne voulant plus quitter la terre, j'ai mis en place une reconversion professionnelle
                 afin d'aider la terre à pouvoir
-                vivre avec des expériences extrateresstre</p>
+                vivre avec des expériences extrateresstres</p>
         </div>
         <div class="company">
             <p class="job">2018-2020 <br>
-                Stagiaire professeur des écoles <br> Education nationale</p>
-            <p class="description">Après avoir attraper toutes les expériences et survécue à toutes mes aventures j'ai
+                Professeur des écoles stagiaire <br> Education nationale</p>
+            <p class="description">Après avoir attrapé toutes les expériences et survécu à toutes mes aventures j'ai
                 décidé d'apprendre au plus jeune </p>
         </div>
     </div>
 </section>
-<section class="competences">
+<section class="competences" id="skill">
     <div class="alignh2">
         <h2 class="h2titleskill"> COMPETENCES </h2>
     </div>
 
     <div class="alignh3">
-        <h3 class="h3titleskill "> PROFESSIONNELLES</h3>
+        <h3 class="h3titleskill"> PROFESSIONNELLES</h3>
     </div>
     <div class="skill1">
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/drapeau.png"
                                                                    alt="icone drapeau"/> POLYGLOTTE</p>
-            <p>Originaire de tantalogue, maitrise de 20 langue différententes, Stitch est particulièrement qualifié
-                pour enseigner les langues</p>
+            <p>Originaire de Tantalogue, maitrise de 20 langues différentes, Stitch est particulièrement qualifié
+                pour enseigner les langues.</p>
         </div>
 
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/noun_Brain_817.png"
@@ -151,13 +151,13 @@
     <div class="skill1">
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/oeil.png" alt="icone oeil"/>
                 CLAIRVOYANT </p>
-            <p> Vision nocturne, rayons x et infrarouge, Stitch sait repérer les fridandises, enfin sait être attentif à
-                ce que les élèves manifestent
+            <p> Vision nocturne, rayons X et infrarouge, Stitch sait repérer les friandises et est attentif à
+                ce que les élèves manifestent.
         </div>
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/force.png" alt="icone bras"/>
                 INVULNERABLE </p>
-            <p> Ignifuge et à l'épreuve des balles Sticth est en mesure de faire face à toutes les difficultés même
-                complètement imprévues !
+            <p> Ignifuge et à l'épreuve des balles, Sticth est en mesure de faire face à toutes les , même
+                complètement imprévues !</p>
         </div>
     </div>
 </section>
@@ -174,12 +174,12 @@
 
             <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/microoscope2.png"
                                                                        alt="icone microscope"/> MINUTIEUX </p>
-                <p>Particulièrement soigneux et précautionneux Stitch aura a coeur d'assurer la protection physique des
-                    élèves</p>
+                <p>Particulièrement soigneux et précautionneux, Stitch aura à coeur d'assurer la protection physique des
+                    élèves.</p>
             </div>
             <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/arrogant2.png"
                                                                        alt="icone arrogant"/> PRESTANCE </p>
-                <p> Mature, réfléchis et disposant d'un calme à toute épreuve Stitch saura apporter avec patience et
+                <p> Mature, réfléchis et disposant d'un calme à toute épreuve, Stitch saura apporter avec patience
                     écoute et soutien.
                 </p>
             </div>
@@ -187,12 +187,12 @@
         <div class="skill1">
             <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/vaisseau.png"
                                                                        alt="icone vaisseau spatial"/> RELATIVISE</p>
-                <p> Grâce à sa participation à des projets d'envergure Stitch saura prendre du recul sur des sujets de
+                <p> Grâce à sa participation à des projets d'envergure, Stitch saura prendre du recul sur des sujets de
                     fonds</p>
             </div>
             <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/equipe2.png"
                                                                        alt="icone equipe"/> COLLABORATIF </p>
-                <p> Stitch apprécie tout particulièrement les collaborations actives , Lilo pourra vous fournir toutes
+                <p> Stitch apprécie tout particulièrement les collaborations actives, Lilo pourra vous fournir toutes
                     recommandations utiles</p>
             </div>
 
@@ -203,7 +203,7 @@
 <div class="alignh2">
     <h2 class="h2titleskill"> DIPLOMES </h2>
 </div>
-<section class="Diplomes">
+<section class="Diplomes" id="diploma">
     <div class="experiences">
         <div class="highschool">
             <p class="studyyear">1999-2000
@@ -211,7 +211,7 @@
                 FUGITIF
             </p>
             <p class="detaileducation"> Vaisseau carcéral du système XD6545 <br> Recherche et exploitation des failles
-                d'un vaisseau carcéral </p>
+                d'un vaisseau carcéral. </p>
         </div>
 
         <div class="highschool">
@@ -220,7 +220,7 @@
                 INGENIEUR TERRAFORMEUR
             </p>
             <p class="detaileducation"> Université de Tantalogue <br> Master en restructuration efficace des planètes
-                par désintégration </p>
+                par désintégration. </p>
         </div>
     </div>
     <div class="experiences">
@@ -230,14 +230,14 @@
                 BTS GEOLOGIE
             </p>
             <p class="detaileducation"> Lycée Professionnel de Tantalogue <br> Spécialisation terraformation, géologie,
-                vulcanologie, océanographie</p>
+                vulcanologie, océanographie.</p>
         </div>
         <div class="highschool">
             <p class="studyyear">1994-1995
                 <br>
                 APPRENTI GEOLOGUE
             </p>
-            <p class="detaileducation">Ecole de Jumba Joobika <br> Année de mise à niveau en géologie</p>
+            <p class="detaileducation">Ecole de Jumba Joobika <br> Année de mise à niveau en géologie.</p>
         </div>
 
     </div>
@@ -268,27 +268,94 @@
 </section>
 
 
-<section class="contact">
-    <h2 id="contact">Ecrivez moi </h2>
-    <form action="mailto:stitch@example.com" method="post">
+<section class="contact" id="contact">
+    <h2 id="contact">Me contacter</h2>
+
+    <?php
+    $subjects = [
+        'sujet 1' => 'Demande de renseignements complémentaires',
+        'sujet 2' => 'Demande d\'entretien',
+    ];
+
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') :
+        foreach ($_POST as $name => $input) {
+            $data[$name] = trim($input);
+        }
+
+        if (empty($data['user_name'])) {
+            $errors[] = 'Veuillez remplir votre nom';
+        }
+
+        if (!key_exists($data['subject'], $subjects)) {
+            $errors[] = 'Valeur incorect du sujet';
+        }
+
+        if (empty($data['user_email'])) {
+            $errors[] = 'Veuillez renseigner un email';
+        } elseif (!filter_var($data['user_email'], FILTER_VALIDATE_EMAIL)) {
+            $errors[] = 'format de l\'email incorrect';
+        }
+
+        if (!empty($errors)) : ?>
+            <ul>
+                <?php foreach ($errors as $error) : ?>
+                    <li><?= $error ?></li>
+                <?php endforeach; ?>
+            </ul>
+        <?php else :
+            echo 'Merci !'; ?> <br> <?= 'Stitch content';
+        endif;
+    endif;
+    ?>
+
+
+    <form action="" method="post">
         <div>
             <label for="name">Nom :</label>
-            <input type="text" id="name" name="user_name" placeholder="Moi m'appelle stitch">
+            <input type="text"
+                   id="name"
+                   name="user_name"
+                   placeholder="Moi m'appelle stitch"
+                   value="<?= $data['user_name'] ?? '' ?>"
+            >
         </div>
         <div>
             <label for="email">E-mail :</label>
-            <input type="email" id="email" name="user_email" placeholder="lilo@example.com">
+            <input type="email"
+                   id="email"
+                   name="user_email"
+                   placeholder="lilo@example.com"
+                   value="<?= $data['user_email'] ?? '' ?>"
+            >
+        </div>
+        <div>
+            <label for="subject">Sujet</label>
+            <select name="subject" id="subject">
+                <?php foreach ($subjects as $optionValue => $subject) : ?>
+                    <option
+                        <?php if (!empty($data['subject']) && $optionValue === $data['subject']) : ?>
+                            selected
+                        <?php endif; ?>
+                            value="<?= $optionValue ?>">
+                        <?= $subject ?>
+                    </option>
+                <?php endforeach; ?>
+            </select>
         </div>
         <div>
             <label for="msg">Message :</label>
-            <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Je m'appelle Stitch...."></textarea>
+            <textarea id="msg"
+                      name="user_message"
+                      rows="4"
+                      cols="50"
+                      placeholder= "Je m'appelle Stitch...."
+            ><?= $data['user_message'] ?? '' ?></textarea>
         </div>
         <div class="button">
             <button type="submit" id="btn">Envoyez</button>
         </div>
     </form>
 </section>
-
 
 <footer>
     <div class=quote>
