@@ -135,46 +135,105 @@ nav a:hover {
 }
 /* header */
 header {
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
+    height: 100vh;
 }
-
 .imgProfile {
-    margin-top: 32px;
-    width: 25%;
+    margin-top: 8px;
+    max-width: 400px;
     height: auto;
+    order: 2;
 }
-
-.profilePicture {
+.headerPart1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 8px;
 }
-
+.profilePicture {
+    order: 2;
+}
 .nameOfStitch {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    max-height: 150px;
 }
-
-h1, h2 {
-    background-color: var(--main-color);
-    padding: 20px;
+.jobOfStitch {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-height: 150px;
+}
+.h1Name, .h2Job {
+    text-align: center;
+    font-family: var(--font-title);
     border-radius: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
-
-h2 {
-    margin-bottom: 80px;
+.h1Name {
+    margin-bottom: 0;
+    font-size: 48px;
 }
-
-.borderLine {
-    border-radius: 2px;
-    margin: 0 auto;
-
-    width  : 100%;
-    height : 40px;
-    background-color: #a8789b;
+.h2Job {
+    font-size: 40px;
 }
-
+.hibiscus1, .hibiscus2, .hibiscus3, .hibiscus4, .hibiscus5, .hibiscus6 {
+    max-width: 160px;
+    height: auto;
+}
+.hibiscus1:hover, .hibiscus2:hover, .hibiscus3:hover, .hibiscus4:hover, .hibiscus5:hover, .hibiscus6:hover {
+    transform: scale(1.3);
+    transition: 1s all;
+}
+.hibiscusButtons2 {
+    order: 3;
+}
+.nameParts {
+    font-family: var(--font-title);
+    font-size: 24px;
+}
+.infoContacts {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 24px;
+}
+@media screen and (max-width: 800px) {
+    .imgProfile {
+        max-width: 200px;
+        margin-top: 8px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .h1Name {
+        max-width: 200px;
+        margin-top: 16px;
+        height: auto;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .h2Job {
+        max-width: 200px;
+        margin-top: 16px;
+        height: auto;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .hibiscus1, .hibiscus2, .hibiscus3, .hibiscus4, .hibiscus5, .hibiscus6 {
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .nameParts {
+        display: none;
+    }
+}
 
 /*SECTION EXPERIENCE AND TRAINING*/
 .experiences {

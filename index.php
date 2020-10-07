@@ -36,16 +36,61 @@
         </div>
     </nav>
 
-    <div class="profilePicture">
-        <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+    <div class="headerPart1">
+        <div class="profilePicture">
+            <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+        </div>
+        <div class="hibiscusButtons1">
+            <figure>
+                <a href="experience">
+                    <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Expériences</figcaption>
+            </figure>
+        </div>
+        <div class="hibiscusButtons2">
+            <figure>
+                <a href="professionalSkill">
+                    <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Professionelles</figcaption>
+            </figure>
+        </div>
     </div>
-
-    <div class="nameOfStitch">
-        <h1>Expérience-626 "Stitch"</h1>
-        <h2>Professeur de Français</h2>
-    </div>
-    <div class="borderLine">
-
+    <div class="headerPart2">
+        <div class="nameOfStitch">
+            <figure>
+                <a href="training">
+                    <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Formation</figcaption>
+            </figure>
+            <h1 class="h1Name">Expérience-626 "Stitch"</h1>
+            <figure>
+                <a href="personalSkill">
+                    <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Personnelles</figcaption>
+            </figure>
+        </div>
+        <p class="infoContacts">Stitch Pelekai</p>
+        <p class="infoContacts">Impasse des hibiscus, Hawaï 96800</p>
+        <p class="infoContacts">stitch@example.com</p>
+        <div class="jobOfStitch">
+            <figure>
+                <a href="recommendation">
+                    <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Recommandations</figcaption>
+            </figure>
+            <h2 class="h2Job">Professeur de Français</h2>
+            <figure>
+                <a href="contact">
+                    <img class="hibiscus6" alt="hibiscus6" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Contact</figcaption>
+            </figure>
+        </div>
     </div>
 </header>
 <body>
