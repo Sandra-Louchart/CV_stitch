@@ -82,66 +82,122 @@
         </div>
     </div>
 </section>
-<div class="alignh2">
-    <h2 class="h2titleskill"> Compétences</h2>
-</div>
 
 <section class="competences">
-    <div class="alignh3">
-        <h3 class="h3titleskill "> Professionnelles </h3>
+    <div class="alignh2">
+        <h2 class="h2titleskill"> COMPETENCES </h2>
     </div>
 
-
+    <div class="alignh3">
+        <h3 class="h3titleskill "> PROFESSIONNELLES</h3>
+    </div>
     <div class="skill1">
-        <div class="skilldetail1"><p class="titreskilldetail"> Maîtrise des langues étrangères</p>
+        <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/drapeau.png"
+                                                                   alt="icone drapeau"/> POLYGLOTTE</p>
             <p>Originaire de tantalogue, maitrise de 20 langue différententes, Stitch est particulièrement qualifié
-                pour enseigner les langues</p></div>
-
-        <div class="skilldetail1"><p class="titreskilldetail"> Intelligence cybernétique</p>
-            <p> Avec son esprit aiguisé Stitch a toujours un coup d'avance sur les élèves</div>
-    </div>
-
-
-    <div class="skill1">
-        <div class="skilldetail1"><p class="titreskilldetail"> Des capacités visuelles hors normes </p>
-            <p> Grace à une vision nocturne une vision par rayons x et infrarouge, Stitch sait repérer les fridandises,
-                enfin sait être attentif à ce que les élèves manifestent</div>
-        <div class="skilldetail1"><p class="titreskilldetail"> Une résistance physique à toute épreuve </p>
-            <p>Ignifuge et à l'épreuve des balles Sticth est en mesure de faire face à toutes les difficultés que
-                représente une classe de jeunes élèves</div>
-
-
-    </div>
-
-    <div class="alignh3">
-        <h3 class="h3titleskill">Personnelles</h3>
-    </div>
-    <div class="skill1">
-
-        <div class="skilldetail1"><p class="titreskilldetail"> Minutie </p>
-            <p>Particulièrement soigneux et précautionneux Stitch aura a coeur d'assurer la protection physique des
-                élèves</p>
+                pour enseigner les langues</p>
         </div>
-        <div class="skilldetail1"><p class="titreskilldetail"> Prestance </p>
-            <p>Mature, réfléchis et disposant d'un calme à toute épreuve Stitch saura apporter avec patience et écoute
-                le soutien aux élèves en difficultés</p>
+
+        <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/noun_Brain_817.png"
+                                                                   alt="icone cerveau"/> INTELLIGENCE CYBERNETIQUE </p>
+            <p> Avec son esprit aiguisé Stitch est un génie et n'est jamais pris au dépourvu ! Un atout avec des élèves
+                !
         </div>
     </div>
-
     <div class="skill1">
-        <div class="skilldetail1"><p class="titreskilldetail">Sait prendre du recul</p>
-            <p> Sa participation à des projets d'envergure sur les aménagements planétaires font de Stitch un enseignant
-                à même de conduire les élèves sur des sujets de fonds</p>
+        <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/oeil.png" alt="icone oeil"/>
+                CLAIRVOYANT </p>
+            <p> Vision nocturne, rayons x et infrarouge, Stitch sait repérer les fridandises, enfin sait être attentif à
+                ce que les élèves manifestent
         </div>
-        <div class="skilldetail1"><p class="titreskilldetail">Gout pour le travail en équipe</p>
-            <p> Stitch apprécie tout particulièrement les collaborations actives , Lilo pourra vous fournir toutes
-                recommandations utiles</p>
+        <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/force.png" alt="icone bras"/>
+                INVULNERABLE </p>
+            <p> Ignifuge et à l'épreuve des balles Sticth est en mesure de faire face à toutes les difficultés même
+                complètement imprévues !
+        </div>
+    </div>
+</section>
+<section>
+    <div class="divbacgroundcomppers">
+        <div class="alignh2">
+            <h2 class="h2titleskill"> COMPETENCES</h2>
+        </div>
+
+        <div class="alignh3">
+            <h3 class="h3titleskill">PERSONNELLES</h3>
+        </div>
+        <div class="skill1">
+
+            <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/microoscope2.png"
+                                                                       alt="icone microscope"/> MINUTIEUX </p>
+                <p>Particulièrement soigneux et précautionneux Stitch aura a coeur d'assurer la protection physique des
+                    élèves</p>
+            </div>
+            <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/arrogant2.png"
+                                                                       alt="icone arrogant"/> PRESTANCE </p>
+                <p> Mature, réfléchis et disposant d'un calme à toute épreuve Stitch saura apporter avec patience et
+                    écoute et soutien.
+                </p>
+            </div>
+        </div>
+        <div class="skill1">
+            <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/vaisseau.png"
+                                                                       alt="icone vaisseau spatial"/> RELATIVISE</p>
+                <p> Grâce à sa participation à des projets d'envergure Stitch saura prendre du recul sur des sujets de
+                    fonds</p>
+            </div>
+            <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/equipe2.png"
+                                                                       alt="icone equipe"/> COLLABORATIF </p>
+                <p> Stitch apprécie tout particulièrement les collaborations actives , Lilo pourra vous fournir toutes
+                    recommandations utiles</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="alignh2">
+    <h2 class="h2titleskill"> DIPLOMES </h2>
+</div>
+<section class="Diplomes">
+    <div class="experiences">
+        <div class="highschool">
+            <p class="studyyear">1999-2000
+                <br>
+                FUGITIF
+            </p>
+            <p class="detaileducation"> Vaisseau carcéral du système XD6545 <br> Recherche et exploitation des failles
+                d'un vaisseau carcéral </p>
+        </div>
+
+        <div class="highschool">
+            <p class="studyyear">1995-1998
+                <br>
+                INGENIEUR TERRAFORMEUR
+            </p>
+            <p class="detaileducation"> Université de Tantalogue <br> Master en restructuration efficace des planètes
+                par désintégration </p>
+        </div>
+    </div>
+    <div class="experiences">
+        <div class="highschool">
+            <p class="studyyear">1995-1998
+                <br>
+                BTS GEOLOGIE
+            </p>
+            <p class="detaileducation"> Lycée Professionnel de Tantalogue <br> Spécialisation terraformation, géologie,
+                vulcanologie, océanographie</p>
+        </div>
+        <div class="highschool">
+            <p class="studyyear">1994-1995
+                <br>
+                APPRENTI GEOLOGUE
+            </p>
+            <p class="detaileducation">Ecole de Jumba Joobika <br> Année de mise à niveau en géologie</p>
         </div>
 
     </div>
 </section>
-
-
 <section>
     <h2>Mes recommendations : </h2>
     <figure class="reference">
