@@ -133,7 +133,6 @@ nav a:hover {
         font-size: var(--font-size-nav);
     }
 }
-
 /* header */
 header {
     background-color: var(--secondary-color)
@@ -346,8 +345,8 @@ h2 {
 .studyyear{
     text-align: center;
     font-size : 22px;
-    font-weight: italic;
-    font-family: var(--font-familyh)
+    font-style: italic;
+    font-family: var(--font-familyh);
 }
 @media screen and (max-width: 800px) {
     .experiences{
@@ -355,10 +354,7 @@ h2 {
     }
     .description {
     }
-    .highschool:hover{
-        /*flex: 1.5;*/
-        background-color:none;
-    }
+
 }
 
 /*SECTION RECOMMANDATION*/

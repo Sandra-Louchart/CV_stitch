@@ -82,7 +82,6 @@
         </div>
     </div>
 </section>
-
 <section class="competences">
     <div class="alignh2">
         <h2 class="h2titleskill"> COMPETENCES </h2>
