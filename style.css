@@ -51,6 +51,7 @@ nav {
     align-items: center;
     height: var(--nav-height);
     font-size: var(--font-size-nav);
+    font-family: var(--font-title);
 }
 
 .items {
@@ -465,7 +466,7 @@ footer {
     margin: 0;
     color: var(--dark);
     padding-left: var(--space-padding);
-    font-family: var(--font-family);
+    font-family: var(--font-title);
 }
 
 .logo {
@@ -476,6 +477,10 @@ footer {
 
 .logo li {
     list-style: none;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 .fab {
@@ -493,6 +498,11 @@ footer {
 
     .fab {
         padding: var(--space-padding);
+    }
+
+    .Ohana {
+        padding-left: 0;
+        font-size: 12px;
     }
 }
 

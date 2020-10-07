@@ -196,13 +196,14 @@
 
 <footer>
     <div class=quote>
-        <p class="Ohana">"Ohana" signifie "Famille". </p>
+        <p class="Ohana">"OHANA" signifie "FAMILLE. </p>
         <p class="family">Famille signifie que personne ne doit être abandonné, ni oublié.</p>
     </div>
     <div class="logo">
-        <li><a class="fab fa-facebook-f fa-2x"></a></li>
-        <li><a class="fab fa-twitter fa-2x"></a></li>
-        <li><a class="fab fa-linkedin-in fa-2x"></a></li>
+        <li><a href="https://www.facebook.com/StichOfficia/" class="fab fa-facebook-f fa-2x"></a></li>
+        <li><a href="https://twitter.com/hashtag/InternationalStitchDay?src=hashtag_click" class="fab fa-twitter fa-2x"></a></li>
+        <li><a href="https://www.instagram.com/stitch_disney626/?hl=fr" class="fab fa-instagram fa-2x"></a></li>
+        <li><a href="https://fr.linkedin.com/" class="fab fa-linkedin-in fa-2x"></a></li>
     </div>
 </footer>
 </body>
