@@ -9,100 +9,97 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
           integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
           crossorigin="anonymous"/>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <title>Cv de Stitch</title>
 </head>
 <header>
-    <nav>
-        <a href="#home" class="home"><img src="img/profil.png" alt="Home"></a>
-        <div class="nav-nom">
-            <h2>Expérience 626</h2>
-        </div>
+<nav>
+    <a href="#home" class="home"><img src="img/profil.png" alt="Home"></a>
+    <div class="nav-nom">
+        <h2>Expérience 626</h2>
+    </div>
 
-        <div class="menu-items">
-            <div class="items" id="menu">
-                <a href="#home" class="home-burger"><img src="img/profil.png" alt="Home"></a>
-                <a href="#experience">Expériences</a>
-                <a href="#skill">Compétences</a>
-                <a href="#education">Formation</a>
-                <a href="#recommendation">Recommendation</a>
-                <a href="#contact" class="contact">Contact</a>
-                <a href="#" class="close"><img src="img/close.png" alt="close"></a>
-            </div>
-            <a class="burger" href="#menu">
-                <div></div>
-                <div></div>
-                <div></div>
+    <div class="menu-items">
+        <div class="items" id="menu">
+            <a href="#home" class="home-burger"><img src="img/profil.png" alt="Home"></a>
+            <a href="#experience">Expériences</a>
+            <a href="#skill">Compétences</a>
+            <a href="#education">Formation</a>
+            <a href="#recommendation">Recommendation</a>
+            <a href="#contact" class="contact">Contact</a>
+            <a href="#" class="close"><img src="img/close.png" alt="close"></a>
+        </div>
+        <a class="burger" href="#menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
+    </div>
+</nav>
+
+<div class="headerPart1">
+    <div class="profilePicture">
+        <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+    </div>
+    <div class="hibiscusButtons1">
+        <figure>
+            <a href="experience">
+                <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
             </a>
-        </div>
-    </nav>
-
-    <div class="headerPart1">
-        <div class="profilePicture">
-            <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
-        </div>
-        <div class="hibiscusButtons1">
+            <figcaption class="nameParts">Expériences</figcaption>
+        </figure>
+    </div>
+    <div class="hibiscusButtons2">
+        <figure>
+            <a href="professionalSkill">
+                <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
+            </a>
+            <figcaption class="nameParts">Compétences<br>Professionelles</figcaption>
+        </figure>
+    </div>
+</div>
+<div class="headerPart2">
+    <div class="nameOfStitch">
+        <div class="hibiscusButtons3">
             <figure>
-                <a href="experience">
-                    <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
+                <a href="training">
+                    <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
                 </a>
-                <figcaption class="nameParts">Expériences</figcaption>
+                <figcaption class="nameParts">Formation</figcaption>
             </figure>
         </div>
-        <div class="hibiscusButtons2">
+        <h1 class="h1Name">Expérience-626 "Stitch"</h1>
+        <div class="hibiscusButtons4">
             <figure>
-                <a href="professionalSkill">
-                    <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
+                <a href="personalSkill">
+                    <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
                 </a>
-                <figcaption class="nameParts">Compétences<br>Professionelles</figcaption>
+                <figcaption class="nameParts">Compétences<br>Personnelles</figcaption>
             </figure>
         </div>
     </div>
-    <div class="headerPart2">
-        <div class="nameOfStitch">
-            <div class="hibiscusButtons3">
-                <figure>
-                    <a href="training">
-                        <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
-                    </a>
-                    <figcaption class="nameParts">Formation</figcaption>
-                </figure>
-            </div>
-            <h1 class="h1Name">Expérience-626 "Stitch"</h1>
-            <div class="hibiscusButtons4">
-                <figure>
-                    <a href="personalSkill">
-                        <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
-                    </a>
-                    <figcaption class="nameParts">Compétences<br>Personnelles</figcaption>
-                </figure>
-            </div>
+    <div class="jobOfStitch">
+        <div class="hibiscusButtons5">
+            <figure>
+                <a href="recommendation">
+                    <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Recommandations</figcaption>
+            </figure>
         </div>
-        <p class="infoContacts">Stitch Pelekai</p>
-        <p class="infoContacts">Impasse des hibiscus, Hawaï 96800</p>
-        <p class="infoContacts">stitch@example.com</p>
-        <div class="jobOfStitch">
-            <div class="hibiscusButtons5">
-                <figure>
-                    <a href="recommendation">
-                        <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
-                    </a>
-                    <figcaption class="nameParts">Recommandations</figcaption>
-                </figure>
-            </div>
-            <h2 class="h2Job">Professeur de Français</h2>
-            <div class="hibiscusButtons6">
+        <h2 class="h2Job">Professeur de Français</h2>
+        <div class="hibiscusButtons6">
 
-                <figure>
-                    <a href="contact">
-                        <img class="hibiscus6" alt="hibiscus6" src="img/fleur.png">
-                    </a>
-                    <figcaption class="nameParts">Contact</figcaption>
-                </figure>
-            </div>
+            <figure>
+                <a href="contact">
+                    <img class="hibiscus6" alt="hibiscus6" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Contact</figcaption>
+            </figure>
         </div>
     </div>
+</div>
 </header>
 <body>
 <section class="myJob" id="experience">
@@ -173,7 +170,7 @@
     </div>
 </section>
 <section>
-    <div class="skill">
+    <div class="personalSkills">
         <div class="alignh2">
             <h2 class="h2titleskill"> COMPETENCES</h2>
         </div>
@@ -214,7 +211,7 @@
 <div class="alignh2">
     <h2 class="h2titleskill" id='training'> FORMATION </h2>
 </div>
-<section class="training">
+<section class="diplomes">
     <div class="experiences">
         <div class="highschool">
             <p class="studyyear">1999-2000
