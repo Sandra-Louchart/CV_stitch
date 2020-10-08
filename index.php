@@ -43,7 +43,7 @@
     </div>
     <div class="hibiscusButtons1">
         <figure>
-            <a href="experience">
+            <a href="#experience">
                 <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
             </a>
             <figcaption class="nameParts">Expériences</figcaption>
@@ -51,7 +51,7 @@
     </div>
     <div class="hibiscusButtons2">
         <figure>
-            <a href="professionalSkill">
+            <a href="#professionalSkill">
                 <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
             </a>
             <figcaption class="nameParts">Compétences<br>Professionelles</figcaption>
@@ -62,7 +62,7 @@
     <div class="nameOfStitch">
         <div class="hibiscusButtons3">
             <figure>
-                <a href="training">
+                <a href="#training">
                     <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
                 </a>
                 <figcaption class="nameParts">Formation</figcaption>
@@ -71,7 +71,7 @@
         <h1 class="h1Name">Expérience-626 "Stitch"</h1>
         <div class="hibiscusButtons4">
             <figure>
-                <a href="personalSkill">
+                <a href="#personalSkill">
                     <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
                 </a>
                 <figcaption class="nameParts">Compétences<br>Personnelles</figcaption>
@@ -81,7 +81,7 @@
     <div class="jobOfStitch">
         <div class="hibiscusButtons5">
             <figure>
-                <a href="recommendation">
+                <a href="#recommendation">
                     <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
                 </a>
                 <figcaption class="nameParts">Recommandations</figcaption>
@@ -91,7 +91,7 @@
         <div class="hibiscusButtons6">
 
             <figure>
-                <a href="contact">
+                <a href="#contact">
                     <img class="hibiscus6" alt="hibiscus6" src="img/fleur.png">
                 </a>
                 <figcaption class="nameParts">Contact</figcaption>
@@ -140,7 +140,7 @@
     </div>
 
     <div class="alignh3">
-        <h3 class="h3titleskill " id='professionnalSkill'> PROFESSIONNELLES</h3>
+        <h3 class="h3titleskill " id='professionalSkill'> PROFESSIONNELLES</h3>
     </div>
     <div class="skill1">
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/drapeau.png"
@@ -177,7 +177,7 @@
         </div>
 
         <div class="alignh3">
-            <h3 class="h3titleskill" id='personnalSkill'>PERSONNELLES</h3>
+            <h3 class="h3titleskill" id='personalSkill'>PERSONNELLES</h3>
         </div>
         <div class="skill1">
 
