@@ -326,7 +326,6 @@ header {
     margin-top: 5px;
 }
 .h3titleskill,.h2titleskill{
-    background-color: var(--main-color);
     border-radius: 4px;
     background-size: 30px;
     padding-left : 15px;
