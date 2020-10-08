@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Cv de Stitch</title>
 </head>
 <header>
@@ -96,36 +96,9 @@
 <body>
 <section class="myJob" id="experience">
     <h2 class="myExperiences">Expériences :</h2>
-    <div class="experiences">
-        <div class="company">
-            <p class="job">2000-2002 <br>
-                Expérience 628 <br> Jumba industrie</p>
-            <p class="description">J'ai été la fabuleuse expérience de Jumba durant 2 ans avant de m'enfuir pour
-                eviter une mort certaine</p>
-        </div>
-        <div class="company">
-            <p class="job">2002-2005 <br>
-                Destructeur <br> Jumba entreprise</p>
-            <p class="description">Je suis venu ici pour détruire le monde. J'ai pu créer de nombreux projets pour
-                arriver à mon objectif
-                final...</p>
-        </div>
-    </div>
-    <div class="experiences">
-        <div class="company">
-            <p class="job">2005-2018 <br>
-                Chasseur de prime <br> Hawaï academy</p>
-            <p class="description">Ne voulant plus quitter la terre, j'ai mis en place une reconversion professionnelle
-                afin d'aider la terre à pouvoir
-                vivre avec des expériences extrateresstres</p>
-        </div>
-        <div class="company">
-            <p class="job">2018-2020 <br>
-                Professeur des écoles stagiaire <br> Education nationale</p>
-            <p class="description">Après avoir attrapé toutes les expériences et survécu à toutes mes aventures j'ai
-                décidé d'apprendre au plus jeune </p>
-        </div>
-    </div>
+<?php
+include 'experiences.php';
+?>
 </section>
 <section class="competences" id="skill">
     <div class="alignh2">
@@ -204,43 +177,9 @@
     <h2 class="h2titleskill"> DIPLOMES </h2>
 </div>
 <section class="Diplomes" id="diploma">
-    <div class="experiences">
-        <div class="highschool">
-            <p class="studyyear">1999-2000
-                <br>
-                FUGITIF
-            </p>
-            <p class="detaileducation"> Vaisseau carcéral du système XD6545 <br> Recherche et exploitation des failles
-                d'un vaisseau carcéral. </p>
-        </div>
-
-        <div class="highschool">
-            <p class="studyyear">1995-1998
-                <br>
-                INGENIEUR TERRAFORMEUR
-            </p>
-            <p class="detaileducation"> Université de Tantalogue <br> Master en restructuration efficace des planètes
-                par désintégration. </p>
-        </div>
-    </div>
-    <div class="experiences">
-        <div class="highschool">
-            <p class="studyyear">1995-1998
-                <br>
-                BTS GEOLOGIE
-            </p>
-            <p class="detaileducation"> Lycée Professionnel de Tantalogue <br> Spécialisation terraformation, géologie,
-                vulcanologie, océanographie.</p>
-        </div>
-        <div class="highschool">
-            <p class="studyyear">1994-1995
-                <br>
-                APPRENTI GEOLOGUE
-            </p>
-            <p class="detaileducation">Ecole de Jumba Joobika <br> Année de mise à niveau en géologie.</p>
-        </div>
-
-    </div>
+    <?php
+    include 'diplome.php';
+    ?>
 </section>
 <section>
     <h2>Mes recommendations : </h2>

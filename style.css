@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "stitch";
+    src: url("./src/Supersonic Rocketship.ttf") format("truetype");
+}
+
 :root {
-    --main-color: #2e98bf;
+    --main-color: #5379A8;
     --secondary-color: #9dc5d4;
     --space-padding: 8px;
     --space-padding2: 16px;
@@ -7,10 +12,11 @@
     --space-margin: 8px;
     --light: #d9dee2;
     --dark: #181c1c;
-    --font-family: 'EB Garamond', serif;
-    --font-familyh: 'Architects Daughter', sans-serif;
-    --font-text: 'EB Garamond', serif;
-    --font-title: 'Architects Daughter', sans-serif;
+    --font-family: 'roboto', sans-serif;
+    --font-familyh: 'stitch', sans-serif;
+    --font-text: 'roboto', sans-serif;
+    --font-title: 'stitch', sans-serif;
+            /*'Architects Daughter', sans-serif;*/
     --font-size-nav: 24px;
     --nav-height: 75px;
 }
@@ -40,7 +46,6 @@ nav {
 .home img {
     height: 60px;
     width: 60px;
-    padding-left: var(--space-padding2);
     padding-top: var(--space-padding);
 }
 .menu-items  {
@@ -54,13 +59,14 @@ nav {
     display: flex;
     align-items: center;
     height: 100%;
+    padding-top: var(--space-padding);
 }
 nav a {
     display: inline-block;
     margin: 0;
-    padding: var(--space-padding);
+    padding: var(--space-padding4);
     text-decoration: none;
-    color: var(--dark);
+    color: var(--light);
 }
 a.contact {
     padding-right: var(--space-padding4);
@@ -71,7 +77,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     height: 80%;
-    color: var(--light);
+    color: var(--dark);
 }
 .burger {
     display: none;
@@ -125,6 +131,7 @@ nav a:hover {
         left: 0;
         background-color: var(--main-color);
         font-size: var(--font-size-nav);
+        padding-bottom: var(--space-padding);
     }
     .items:target .close {
         display: block;
@@ -252,9 +259,8 @@ header {
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 50px;
-
 }
-.company{
+.exp{
     flex: 0.5;
     border-radius: 4px;
     margin-bottom: 32px;
@@ -275,7 +281,7 @@ header {
     color : var(--dark);
 }
 
-.company:hover{
+.exp:hover{
     /*flex: 1.5;*/
     background-color:#f7f9fa;
 }
@@ -455,7 +461,7 @@ footer {
 }
 .quote p {
     margin: 0;
-    color: var(--dark);
+    color: var(--light);
     padding-left: var(--space-padding);
     font-family: var(--font-title);
 }
