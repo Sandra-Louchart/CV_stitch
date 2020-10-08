@@ -135,9 +135,9 @@
         </div>
     </div>
 </section>
-<section class="skill">
+<section>
     <div class="alignh2">
-        <h2 class="h2titleskill"> COMPETENCES </h2>
+        <h2 class="h2titleskill"> COMP&Eacute;TENCES </h2>
     </div>
 
     <div class="alignh3">
@@ -172,7 +172,7 @@
 <section>
     <div class="personalSkills">
         <div class="alignh2">
-            <h2 class="h2titleskill"> COMPETENCES</h2>
+            <h2 class="h2titleskill"> COMP&Eacute;TENCES</h2>
         </div>
 
         <div class="alignh3">
