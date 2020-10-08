@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <title>Cv de Stitch</title>
 </head>
@@ -84,7 +84,7 @@
 </section>
 <section class="skill">
     <div class="alignh2">
-        <h2 class="h2titleskill"> COMPETENCES </h2>
+        <h2 class="h2titleskill"> COMP&Eacute;TENCES </h2>
     </div>
 
     <div class="alignh3">
@@ -119,7 +119,7 @@
 <section>
     <div class="skill">
         <div class="alignh2">
-            <h2 class="h2titleskill"> COMPETENCES</h2>
+            <h2 class="h2titleskill"> COMP&Eacute;TENCES</h2>
         </div>
 
         <div class="alignh3">
