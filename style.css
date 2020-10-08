@@ -20,8 +20,9 @@ body {
 
     opacity: 90%;
     font-family: var(--font-text);
-    margin: 0;
+    margin: 0 ;
     padding-top: var(--nav-height);
+
 }
 
 /* Barre de navigation */
@@ -296,11 +297,13 @@ header {
     }
 }
 
-/*SECTION EXPERIENCE AND TRAINING*/
+/*SECTION EXPERIENCE */
 .experiences {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .myExperiences {
@@ -309,6 +312,7 @@ header {
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 50px;
+
 
 }
 
@@ -321,20 +325,20 @@ header {
     padding-right: 30px;
     padding-bottom: 32px;
     padding-top: 32px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 2%;
+    margin-left : 2%;
     box-shadow: 2px 2px 5px 0 #656565;
     transition-timing-function: ease-in-out;
     transition-property: background-color;
     transition-duration: 0.8s;
     overflow: hidden;
-    height: 12em;
-    background-color: var(--light);
-    color: var(--dark);
+    height: 70%;
+    width: 50%;
+    background-color:var(--light);
+    color : var(--dark);
 }
 
 .company:hover {
-    /*flex: 1.5;*/
     background-color: #f7f9fa;
 }
 
@@ -345,9 +349,9 @@ header {
     font-family: var(--font-familyh);
 }
 
-.description {
-    text-align: center;
-    font-size: 16px;
+.description{
+    text-align: justify;
+    font-size:16px;
     font-family: var(--font-family);
 }
 
@@ -361,8 +365,15 @@ header {
 @media screen and (max-width: 1200px ) {
     .company {
         height: 18em;
+        width: 10em;
     }
+    .experiences {
 
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
 }
 
 /* Compétences */
@@ -373,8 +384,6 @@ header {
     background-size: cover;
 
 }
-
-
 .alignh2 {
     text-align: center;
     margin-bottom: 5px;
@@ -388,12 +397,12 @@ header {
 }
 
 .h3titleskill,.h2titleskill{
+
     border-radius: 4px;
-    background-size: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: inline-block;
-    color: var(--dark);
+    padding-left : 15px;
+    padding-right : 15px;
+    display : inline-block;
+    color : var(--dark);
     font-family: var(--font-familyh)
 }
 
@@ -405,27 +414,31 @@ header {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .skilldetail1 {
     flex: 0.5;
     border-radius: 4px;
-    margin-bottom: 30px;
-    background-size: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
+    margin-bottom: 32px;
+    background-size: 32px;
+    padding-left : 30px;
+    padding-right : 30px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    margin-right : 2%;
+    margin-left : 2%;
+    /*text-align: center ;*/
     box-shadow: 2px 2px 5px 0 #656565;
     transition-timing-function: ease-in-out;
     transition-property: background-color;
     transition-duration: 0.8s;
     overflow: hidden;
-    height: 12em;
-    background-color: var(--light);
-    color: var(--dark);
+    height: 70%;
+    width: 50%;
+    background-color:var(--light);
+    color : var(--dark);
 }
 
 .skilldetail1:hover {
@@ -458,30 +471,34 @@ header {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .highschool {
     flex: 0.5;
     border-radius: 4px;
-    margin-bottom: 28px;
-    background-size: 28px;
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-bottom: 8px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-bottom: 32px;
+    background-size: 32px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    margin-right: 2%;
+    margin-left : 2%;
     box-shadow: 2px 2px 5px 0 #656565;
     transition-timing-function: ease-in-out;
     transition-property: background-color;
     transition-duration: 0.8s;
     overflow: hidden;
-    height: 14em;
-    background-color: var(--light);
-    color: var(--dark);
+    height: 70%;
+    width: 50%;
+    background-color:var(--light);
+    color : var(--dark);
 }
 
 .detaileducation {
-    text-align: center;
+    text-align: justify;
 }
 
 .highschool:hover {
@@ -500,10 +517,28 @@ header {
     .experiences {
         flex-direction: column;
     }
+}
 
-    .description {
+/*SECTION RECOMMANDATION*/
+@media screen and (max-width:800px ) {
+    .texteRecommendation1{
+        display: inline-block;
+    }
+    .imgRecommendation1{
+        flex-direction: column;
+    }
+    .texteRecommendation2{
+        display: inline-block;
+        order:+1;
     }
 
+    .imgRecommendation2{
+        flex-direction: column;
+    }
+    .reco{
+        margin-left: 1px;
+        margin-right: 1px;
+    }
 }
 
 /*SECTION RECOMMANDATION*/
@@ -517,13 +552,51 @@ header {
 .reference img {
     width: 80px;
     height: 80px;
+}
+.reco{
+    margin-left: 16%;
+    margin-right: 16%;
+}
+.myRecommendation{
+    font-family: var(--font-familyh);
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.texteRecommendation1{
+    font-family: var(--font-family);
+    font-size: 22px;
+    padding-left: 16px;
+}
+.imgRecommendation1 img{
+    display: block;
     border-radius: 8%;
-    box-shadow: 0px 0px 16px;
+    justify-content: flex-end;
+    width: 160px;
+    height: 160px;
 }
 
-figcaption {
+.texteRecommendation2{
     font-family: var(--font-family);
-    font-size: 24px;
+    font-size: 22px;
+}
+.imgRecommendation2 img{
+    display: block;
+    border-radius: 8%;
+    width: 160px;
+    height: 160px;
+
+}
+.imgRecommendation1{
+    display:flex;
+    justify-content: flex-start;
+
+}
+.imgRecommendation2{
+    display:flex;
+    justify-content: flex-end;
+
 }
 
 /* Footer */
@@ -588,21 +661,28 @@ footer {
 }
 
 /* Contact */
-.contact {
+
+.contacts{
+    margin-left: 16%;
+    margin-right: 16%;
+}
+.contact{
     font-family: var(--font-family);
     font-size: 24px;
 }
 
 input, textarea {
     font-family: var(--font-family);
-    width: 100%;
+    width:96%;
     padding: 16px;
-    border: 8px solid;
+    border: 1px;
     border-radius: 8px;
     box-sizing: border-box;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    resize: vertical;
+    margin-top:16px;
+    margin-bottom: 24px;
+    resize:vertical;
+    font-size: 16px;
+    margin-left: 2%;
 }
 
 #btn {
@@ -610,4 +690,14 @@ input, textarea {
     padding: 16px 24px;
     border: none;
     border-radius: 8px;
+    font-family: var(--font-family);
+    font-size: 24px;
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 800px){
+    input, textarea {
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
 }
