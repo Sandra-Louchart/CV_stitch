@@ -36,16 +36,61 @@
         </div>
     </nav>
 
-    <div class="profilePicture">
-        <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+    <div class="headerPart1">
+        <div class="profilePicture">
+            <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+        </div>
+        <div class="hibiscusButtons1">
+            <figure>
+                <a href="experience">
+                    <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Expériences</figcaption>
+            </figure>
+        </div>
+        <div class="hibiscusButtons2">
+            <figure>
+                <a href="professionalSkill">
+                    <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Professionelles</figcaption>
+            </figure>
+        </div>
     </div>
-
-    <div class="nameOfStitch">
-        <h1>Expérience-626 "Stitch"</h1>
-        <h2>Professeur de Français</h2>
-    </div>
-    <div class="borderLine">
-
+    <div class="headerPart2">
+        <div class="nameOfStitch">
+            <figure>
+                <a href="training">
+                    <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Formation</figcaption>
+            </figure>
+            <h1 class="h1Name">Expérience-626 "Stitch"</h1>
+            <figure>
+                <a href="personalSkill">
+                    <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Personnelles</figcaption>
+            </figure>
+        </div>
+        <p class="infoContacts">Stitch Pelekai</p>
+        <p class="infoContacts">Impasse des hibiscus, Hawaï 96800</p>
+        <p class="infoContacts">stitch@example.com</p>
+        <div class="jobOfStitch">
+            <figure>
+                <a href="recommendation">
+                    <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Recommandations</figcaption>
+            </figure>
+            <h2 class="h2Job">Professeur de Français</h2>
+            <figure>
+                <a href="contact">
+                    <img class="hibiscus6" alt="hibiscus6" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Contact</figcaption>
+            </figure>
+        </div>
     </div>
 </header>
 <body>
@@ -83,67 +128,134 @@
         </div>
     </div>
 </section>
+<<<<<<< HEAD
 <hr>
 <div class="alignh2">
     <h2 class="h2titleskill"> Compétences</h2>
 </div>
 
+=======
+>>>>>>> ad5aee2119614d7a6c7e36806e45344932258e40
 <section class="competences">
-    <div class="alignh3">
-        <h3 class="h3titleskill "> Professionnelles </h3>
+    <div class="alignh2">
+        <h2 class="h2titleskill"> COMPETENCES </h2>
     </div>
 
-
+    <div class="alignh3">
+        <h3 class="h3titleskill "> PROFESSIONNELLES</h3>
+    </div>
     <div class="skill1">
-        <div class="skilldetail1"><p class="titreskilldetail"> Maîtrise des langues étrangères</p>
+        <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/drapeau.png"
+                                                                   alt="icone drapeau"/> POLYGLOTTE</p>
             <p>Originaire de tantalogue, maitrise de 20 langue différententes, Stitch est particulièrement qualifié
-                pour enseigner les langues</p></div>
-
-        <div class="skilldetail1"><p class="titreskilldetail"> Intelligence cybernétique</p>
-            <p> Avec son esprit aiguisé Stitch a toujours un coup d'avance sur les élèves</div>
-    </div>
-
-
-    <div class="skill1">
-        <div class="skilldetail1"><p class="titreskilldetail"> Des capacités visuelles hors normes </p>
-            <p> Grace à une vision nocturne une vision par rayons x et infrarouge, Stitch sait repérer les fridandises,
-                enfin sait être attentif à ce que les élèves manifestent</div>
-        <div class="skilldetail1"><p class="titreskilldetail"> Une résistance physique à toute épreuve </p>
-            <p>Ignifuge et à l'épreuve des balles Sticth est en mesure de faire face à toutes les difficultés que
-                représente une classe de jeunes élèves</div>
-
-
-    </div>
-
-    <div class="alignh3">
-        <h3 class="h3titleskill">Personnelles</h3>
-    </div>
-    <div class="skill1">
-
-        <div class="skilldetail1"><p class="titreskilldetail"> Minutie </p>
-            <p>Particulièrement soigneux et précautionneux Stitch aura a coeur d'assurer la protection physique des
-                élèves</p>
+                pour enseigner les langues</p>
         </div>
-        <div class="skilldetail1"><p class="titreskilldetail"> Prestance </p>
-            <p>Mature, réfléchis et disposant d'un calme à toute épreuve Stitch saura apporter avec patience et écoute
-                le soutien aux élèves en difficultés</p>
+
+        <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/noun_Brain_817.png"
+                                                                   alt="icone cerveau"/> INTELLIGENCE CYBERNETIQUE </p>
+            <p> Avec son esprit aiguisé Stitch est un génie et n'est jamais pris au dépourvu ! Un atout avec des élèves
+                !
         </div>
     </div>
-
     <div class="skill1">
-        <div class="skilldetail1"><p class="titreskilldetail">Sait prendre du recul</p>
-            <p> Sa participation à des projets d'envergure sur les aménagements planétaires font de Stitch un enseignant
-                à même de conduire les élèves sur des sujets de fonds</p>
+        <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/oeil.png" alt="icone oeil"/>
+                CLAIRVOYANT </p>
+            <p> Vision nocturne, rayons x et infrarouge, Stitch sait repérer les fridandises, enfin sait être attentif à
+                ce que les élèves manifestent
         </div>
-        <div class="skilldetail1"><p class="titreskilldetail">Gout pour le travail en équipe</p>
-            <p> Stitch apprécie tout particulièrement les collaborations actives , Lilo pourra vous fournir toutes
-                recommandations utiles</p>
+        <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/force.png" alt="icone bras"/>
+                INVULNERABLE </p>
+            <p> Ignifuge et à l'épreuve des balles Sticth est en mesure de faire face à toutes les difficultés même
+                complètement imprévues !
+        </div>
+    </div>
+</section>
+<section>
+    <div class="divbacgroundcomppers">
+        <div class="alignh2">
+            <h2 class="h2titleskill"> COMPETENCES</h2>
+        </div>
+
+        <div class="alignh3">
+            <h3 class="h3titleskill">PERSONNELLES</h3>
+        </div>
+        <div class="skill1">
+
+            <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/microoscope2.png"
+                                                                       alt="icone microscope"/> MINUTIEUX </p>
+                <p>Particulièrement soigneux et précautionneux Stitch aura a coeur d'assurer la protection physique des
+                    élèves</p>
+            </div>
+            <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/arrogant2.png"
+                                                                       alt="icone arrogant"/> PRESTANCE </p>
+                <p> Mature, réfléchis et disposant d'un calme à toute épreuve Stitch saura apporter avec patience et
+                    écoute et soutien.
+                </p>
+            </div>
+        </div>
+        <div class="skill1">
+            <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/vaisseau.png"
+                                                                       alt="icone vaisseau spatial"/> RELATIVISE</p>
+                <p> Grâce à sa participation à des projets d'envergure Stitch saura prendre du recul sur des sujets de
+                    fonds</p>
+            </div>
+            <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/equipe2.png"
+                                                                       alt="icone equipe"/> COLLABORATIF </p>
+                <p> Stitch apprécie tout particulièrement les collaborations actives , Lilo pourra vous fournir toutes
+                    recommandations utiles</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class="alignh2">
+    <h2 class="h2titleskill"> DIPLOMES </h2>
+</div>
+<section class="Diplomes">
+    <div class="experiences">
+        <div class="highschool">
+            <p class="studyyear">1999-2000
+                <br>
+                FUGITIF
+            </p>
+            <p class="detaileducation"> Vaisseau carcéral du système XD6545 <br> Recherche et exploitation des failles
+                d'un vaisseau carcéral </p>
+        </div>
+
+        <div class="highschool">
+            <p class="studyyear">1995-1998
+                <br>
+                INGENIEUR TERRAFORMEUR
+            </p>
+            <p class="detaileducation"> Université de Tantalogue <br> Master en restructuration efficace des planètes
+                par désintégration </p>
+        </div>
+    </div>
+    <div class="experiences">
+        <div class="highschool">
+            <p class="studyyear">1995-1998
+                <br>
+                BTS GEOLOGIE
+            </p>
+            <p class="detaileducation"> Lycée Professionnel de Tantalogue <br> Spécialisation terraformation, géologie,
+                vulcanologie, océanographie</p>
+        </div>
+        <div class="highschool">
+            <p class="studyyear">1994-1995
+                <br>
+                APPRENTI GEOLOGUE
+            </p>
+            <p class="detaileducation">Ecole de Jumba Joobika <br> Année de mise à niveau en géologie</p>
         </div>
 
     </div>
 </section>
+<<<<<<< HEAD
 
 <hr>
+=======
+>>>>>>> ad5aee2119614d7a6c7e36806e45344932258e40
 <section>
     <h2 class="myRecommendation" id="recommendation">Recommandations  </h2>
     <figure class="reference">
