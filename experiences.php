@@ -5,15 +5,26 @@ $experiences = [
     'company' => ['Jumba industrie', 'Jumba entreprise', 'Hawaï academy', 'Education nationale.'],
     'description' => ['J\'ai été la fabuleuse expérience de Jumba durant 2 ans avant de m\'enfuir pour éviter une mort certaine.',
         'Je suis venu ici pour détruire le monde. J\'ai pu créer de nombreux projets pour arriver à mon objectif final...',
-        'Ne voulant plus quitter la terre, j\'ai entrepris une reconversion professionnelle afin d\'aider la terre à pouvoir vivre avec des expériences extrateresstres.',
+        'Ne voulant plus quitter la terre, j\'ai entrepris une reconversion professionnelle afin d\'aider la terre à pouvoir vivre avec des expériences extraterrestres.',
         'Après avoir attrapé toutes les expériences et survécu à toutes mes aventures, j\'ai décidé d\'apprendre au plus jeune.'],
 ];
 ?>
 
-<div class="exp_div">
-    <?php for ($i = 0; $i < count($experiences['years']); $i++) {
+<div class="experience_div">
+    <?php for ($i = 0; $i < 2; $i++) {
         ?>
-    <div class="exp">
+    <div class="experience">
+        <?php foreach ($experiences as $job => $experience) { ?>
+            <p class="<?= $job ?>"><?= $experiences[$job][$i]; ?></p>
+        <?php }
+        ?></div><?php
+    }
+    ?>
+</div>
+<div class="experience_div">
+    <?php for ($i = 2; $i < count($experiences['years']); $i++) {
+        ?>
+        <div class="experience">
         <?php foreach ($experiences as $job => $experience) { ?>
             <p class="<?= $job ?>"><?= $experiences[$job][$i]; ?></p>
         <?php }

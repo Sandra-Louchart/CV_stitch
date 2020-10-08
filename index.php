@@ -24,9 +24,9 @@
             <a href="#home" class="home-burger"><img src="img/profil.png" alt="Home"></a>
             <a href="#experience">Expériences</a>
             <a href="#skill">Compétences</a>
-            <a href="#education">Formation</a>
+            <a href="#training">Formation</a>
             <a href="#recommendation">Recommendations</a>
-            <a href="#contact" class="contact">Contact</a>
+            <a href="#contact" class="contact_nav">Contact</a>
             <a href="#" class="close"><img src="img/close.png" alt="close"></a>
         </div>
         <a class="burger" href="#menu">
@@ -36,14 +36,13 @@
         </a>
     </div>
 </nav>
-
+<div id="home"></div>
 <div class="headerPart1">
     <div class="profilePicture">
         <img src="img/profil.png" alt="imgProfile" class="imgProfile">
     </div>
     <div class="hibiscusButtons1">
         <figure>
-
             <a href="#experience">
                 <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
             </a>
@@ -63,7 +62,6 @@
     <div class="nameOfStitch">
         <div class="hibiscusButtons3">
             <figure>
-
                 <a href="#training">
                     <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
                 </a>
@@ -73,7 +71,6 @@
         <h1 class="h1Name">Expérience-626 "Stitch"</h1>
         <div class="hibiscusButtons4">
             <figure>
-
                 <a href="#personalSkill">
                     <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
                 </a>
@@ -84,8 +81,7 @@
     <div class="jobOfStitch">
         <div class="hibiscusButtons5">
             <figure>
-
-                <a href="#recommendation">
+t                <a href="#recommendation">
                     <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
                 </a>
                 <figcaption class="nameParts">Recommandations</figcaption>
@@ -107,7 +103,7 @@
 <body>
 
 <section class="myJob" id="experience">
-    <h2 class="myExperiences">Expériences :</h2>
+    <h2 class="myExperiences">Expériences</h2>
 <?php
 include 'experiences.php';
 ?>
@@ -115,12 +111,9 @@ include 'experiences.php';
 
 <section class="competences" id="skill">
     <div class="alignh2">
-        <h2 class="h2titleskill"> COMP&Eacute;TENCES </h2>
+        <h2 class="h2titleskill"> COMP&Eacute;TENCES PROFESSIONNELLES</h2>
     </div>
 
-    <div class="alignh3">
-        <h3 class="h3titleskill " id='professionalSkill'> PROFESSIONNELLES</h3>
-    </div>
     <div class="skill1">
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/drapeau.png"
                                                                    alt="icone drapeau"/> POLYGLOTTE</p>
@@ -149,16 +142,11 @@ include 'experiences.php';
 </section>
 
 <section>
-
     <div class="personalSkills">
-
         <div class="alignh2">
-            <h2 class="h2titleskill"> COMP&Eacute;TENCES</h2>
+            <h2 class="h2titleskill"> COMP&Eacute;TENCES PERSONNELLES</h2>
         </div>
 
-        <div class="alignh3">
-            <h3 class="h3titleskill" id='personalSkill'>PERSONNELLES</h3>
-        </div>
         <div class="skill1">
 
             <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/microoscope2.png"
@@ -229,7 +217,7 @@ include 'experiences.php';
 
 </section>
 
-<section class="contact" id=contact">
+<section class="contact" id="contact">
 <?php
 include 'form.php';
 ?>

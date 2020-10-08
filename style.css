@@ -6,28 +6,38 @@
 :root {
     --main-color: #5379A8;
     --secondary-color: #1F2D3F;
+    --color-hover: #f7f9fa;
     --space-padding: 8px;
     --space-padding2: 16px;
     --space-padding4: 32px;
     --space-margin: 8px;
     --light: #d9dee2;
     --dark: #181c1c;
-    --font-family: 'roboto', sans-serif;
-    --font-familyh: 'stitch', sans-serif;
     --font-text: 'roboto', sans-serif;
     --font-title: 'stitch', sans-serif;
     --font-size-nav: 24px;
+    --font-size-card-title: 24px;
+    --font-size-card-text: 16px;
+    --font-size-h2: 28px;
     --nav-height: 75px;
+    --border-radius: 8px;
 }
 
 body {
     background-color: var(--secondary-color);
-
     opacity: 90%;
     font-family: var(--font-text);
     margin: 0 ;
     padding-top: var(--nav-height);
+}
 
+section {
+    margin-top: var(--nav-height);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    color: var(--dark);
 }
 
 /* Barre de navigation */
@@ -40,8 +50,9 @@ nav {
     position: fixed;
     top: 0;
     width: 100vw;
-    font-family: var(--font-family);
+    font-family: var(--font-text);
     padding-right: var(--space-padding);
+    z-index: 1;
 
     background: var(--main-color);
     overflow: hidden;
@@ -77,7 +88,7 @@ nav a {
     color: var(--light);
 }
 
-a.contact {
+a.contact_nav {
     padding-right: var(--space-padding4);
     font-family: var(--font-title);
 }
@@ -101,7 +112,7 @@ nav a:hover {
     height: 4px;
     width: 40px;
     background-color: var(--dark);
-    border-radius: 8px;
+    border-radius: var(--border-radius);
 }
 
 .close, a.home-burger, .nav-nom h2 {
@@ -122,6 +133,10 @@ nav a:hover {
         display: flex;
     }
 
+    nav a {
+        padding: var(--space-padding)
+    }
+
     a.home-burger {
         display: block;
         height: var(--nav-height)
@@ -133,7 +148,7 @@ nav a:hover {
         padding-top: var(--space-padding2);
     }
 
-    a.contact {
+    a.contact_nav {
         padding: 0;
     }
 
@@ -155,8 +170,8 @@ nav a:hover {
     .items:target .close {
         display: block;
         position: fixed;
-        top: 8px;
-        right: 8px;
+        top: var(--space-padding);
+        right: var(--space-padding);
         font-size: var(--font-size-nav);
     }
 }
@@ -173,7 +188,7 @@ header {
 
 
 .imgProfile {
-    margin-top: 8px;
+    margin-top: var(--space-margin);
     max-width: 400px;
     height: auto;
     order: 2;
@@ -183,7 +198,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    margin-top: 8px;
+    margin-top: var(--space-margin);
 }
 
 .profilePicture {
@@ -207,7 +222,7 @@ header {
 .h1Name, .h2Job {
     text-align: center;
     font-family: var(--font-title);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -238,7 +253,6 @@ header {
 .hibiscusButtons2 {
     margin-bottom: 120px;
     order: 3;
-    margin-bottom: 5%;
 }
 
 .hibiscusButtons3 {
@@ -255,7 +269,7 @@ header {
 
 .nameParts {
     font-family: var(--font-title);
-    font-size: 24px;
+    font-size: var(--font-size-card-title);
     color: var(--light);
 }
 
@@ -263,69 +277,60 @@ header {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
-    font-family: var(--font-family);
-    font-size: 24px;
+    font-family: var(--font-text);
+    font-size: var(--font-size-card-title);
 }
 
 @media screen and (max-width: 800px) {
     .imgProfile {
         max-width: 200px;
-        margin-top: 8px;
+        margin-top: var(--space-margin);
         height: auto;
     }
-}
-
-@media screen and (max-width: 800px) {
     .h1Name {
         max-width: 200px;
-        margin-top: 16px;
+        margin-top: var(--space-padding2);
         height: auto;
-        font-size: 24px;
+        font-size: var(--font-size-card-title);
     }
-}
-
-@media screen and (max-width: 800px) {
     .h2Job {
         max-width: 200px;
-        margin-top: 16px;
+        margin-top: var(--space-padding2);
         height: auto;
         font-size: 20px;
     }
-}
-
-@media screen and (max-width: 800px) {
     .hibiscus1, .hibiscus2, .hibiscus3, .hibiscus4, .hibiscus5, .hibiscus6 {
         display: none;
     }
-}
-
-@media screen and (max-width: 800px) {
     .nameParts {
         display: none;
     }
 }
 
 /*SECTION EXPERIENCE */
-.experiences {
+.experience_div {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
     margin-left: 16%;
     margin-right: 16%;
 }
+.experience_div > div {
+    height: auto;
+}
 
 .myExperiences {
-    font-family: var(--font-familyh);
-    font-size: 28px;
+    font-family: var(--font-title);
+    font-size: var(--font-size-h2);
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
 
-.exp{
+.experience {
     flex: 0.5;
     border-radius: 4px;
-    margin-bottom: 32px;
+    margin-bottom: var(--space-padding4);
     background-size: 32px;
     padding-left: 30px;
     padding-right: 30px;
@@ -342,44 +347,48 @@ header {
     width: 50%;
     background-color:var(--light);
     color : var(--dark);
+    opacity: 0.9;
 }
 
-.company:hover {
-    background-color: #f7f9fa;
+.experience:hover {
+    background-color: var(--color-hover);
 }
 
 .job {
     text-align: center;
-    font-size: 22px;
+    font-size: var(--font-size-card-title);
     font-style: italic;
-    font-family: var(--font-familyh);
+    font-family: var(--font-title);
 }
 
 .description{
     text-align: justify;
-    font-size:16px;
-    font-family: var(--font-family);
+    font-size: var(--font-size-card-text);
+    font-family: var(--font-text);
 }
 
 @media screen and (max-width: 800px) {
-    .experiences {
+    .experience_div {
         flex-direction: column;
+        align-items: center;
     }
-
 }
 
 @media screen and (max-width: 1200px ) {
-    .company {
+    .experience {
         height: 18em;
         width: 10em;
     }
-    .experiences {
-
+    .experience_div {
         display: flex;
         flex-wrap: wrap;
         margin-left: 1px;
         margin-right: 1px;
     }
+    .experience_div > div {
+        width: 60%;
+    }
+
 }
 
 /* Compétences */
@@ -403,13 +412,12 @@ header {
 }
 
 .h3titleskill,.h2titleskill{
-
     border-radius: 4px;
     padding-left : 15px;
     padding-right : 15px;
     display : inline-block;
     color : var(--dark);
-    font-family: var(--font-familyh)
+    font-family: var(--font-title);
 }
 
 .icone {
@@ -427,7 +435,7 @@ header {
 .skilldetail1 {
     flex: 0.5;
     border-radius: 4px;
-    margin-bottom: 32px;
+    margin-bottom: var(--space-padding4);
     background-size: 32px;
     padding-left : 30px;
     padding-right : 30px;
@@ -445,10 +453,11 @@ header {
     width: 50%;
     background-color:var(--light);
     color : var(--dark);
+    opacity: 0.9;
 }
 
 .skilldetail1:hover {
-    background-color: #f7f9fa;
+    background-color: var(--color-hover);
 }
 
 @media screen and (max-width: 800px) {
@@ -458,22 +467,20 @@ header {
     }
 
     .skilldetail1 {
-        flex-direction: column;
-        align-items: center;
-
+        width: 60%;
     }
 }
 
 .titreskilldetail {
     text-align: center;
-    font-size: 22px;
+    font-size: var(--font-size-card-title);
     font-style: italic;
-    font-family: var(--font-familyh)
+    font-family: var(--font-title)
 }
 
 /*SECTION EDUCATION*/
 
-.experiences {
+.diploma_div {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
@@ -481,15 +488,15 @@ header {
     margin-right: 16%;
 }
 
-.highschool {
+.diploma {
     flex: 0.5;
     border-radius: 4px;
-    margin-bottom: 32px;
+    margin-bottom: var(--space-padding4);
     background-size: 32px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding-bottom: var(--space-padding4);
+    padding-top: var(--space-padding4);
     margin-right: 2%;
     margin-left : 2%;
     box-shadow: 2px 2px 5px 0 #656565;
@@ -501,27 +508,32 @@ header {
     width: 50%;
     background-color:var(--light);
     color : var(--dark);
+    opacity: 0.9;
 }
 
-.detaileducation {
+.description {
     text-align: justify;
 }
 
-.highschool:hover {
+.diploma:hover {
 
-    background-color: #f7f9fa;
+    background-color: var(--color-hover);
 }
 
-.studyyear {
+.years {
     text-align: center;
-    font-size: 22px;
+    font-size: var(--font-size-card-title);
     font-style: italic;
-    font-family: var(--font-familyh);
+    font-family: var(--font-title);
 }
 
 @media screen and (max-width: 800px) {
-    .experiences {
+    .diploma_div {
         flex-direction: column;
+        align-items: center;
+    }
+    .diploma {
+        width: 60%;
     }
 }
 
@@ -564,16 +576,16 @@ header {
     margin-right: 16%;
 }
 .myRecommendation{
-    font-family: var(--font-familyh);
-    font-size: 28px;
+    font-family: var(--font-title);
+    font-size: var(--font-size-h2);
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
 .texteRecommendation1{
-    font-family: var(--font-family);
+    font-family: var(--font-text);
     font-size: 22px;
-    padding-left: 16px;
+    padding-left: var(--space-padding2);
 }
 .imgRecommendation1 img{
     display: block;
@@ -584,8 +596,8 @@ header {
 }
 
 .texteRecommendation2{
-    font-family: var(--font-family);
-    font-size: 22px;
+    font-family: var(--font-text);
+    font-size: var(--font-size-card-title);
 }
 .imgRecommendation2 img{
     display: block;
@@ -613,7 +625,7 @@ footer {
     background-color: var(--main-color);
     height: 40px;
     padding: var(--space-padding2);
-    margin-top: var(--space-margin);
+    margin-top: var(--space-padding4);
 }
 
 .quote {
@@ -668,42 +680,57 @@ footer {
 
 /* Contact */
 
-.contacts{
+.contact{
     margin-left: 16%;
     margin-right: 16%;
-}
-.contact{
-    font-family: var(--font-family);
-    font-size: 24px;
+    font-family: var(--font-text);
+    font-size: var(--font-size-card-title);
+    color: var(--light)
 }
 
-input, textarea {
-    font-family: var(--font-family);
+.contact h2 {
+    font-family: var(--font-title);
+}
+
+input, select, textarea {
+    font-family: var(--font-text);
     width:96%;
-    padding: 16px;
+    padding: var(--space-padding2);
     border: 1px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     box-sizing: border-box;
-    margin-top:16px;
+    margin-top:var(--space-padding2);
     margin-bottom: 24px;
     resize:vertical;
-    font-size: 16px;
+    font-size: var(--space-padding2);
     margin-left: 2%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    filter: brightness(140%);
+}
+
+.button:active {
+    filter: brightness(60%);
 }
 
 #btn {
     background-color: var(--main-color);
     padding: 16px 24px;
     border: none;
-    border-radius: 8px;
-    font-family: var(--font-family);
-    font-size: 24px;
-    margin-left: 40%;
+    border-radius: var(--border-radius);
+    font-family: var(--font-text);
+    font-size: var(--font-size-card-title);
 }
 
 @media screen and (max-width: 800px){
     input, textarea {
-        margin-top: 8px;
-        margin-bottom: 16px;
+        margin-top: var(--space-margin);
+        margin-bottom: var(--space-padding2);
     }
 }
