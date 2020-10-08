@@ -45,7 +45,7 @@
     <div class="hibiscusButtons1">
         <figure>
             <a href="experience">
-                <img class="hibiscus1" alt="hibiscus1" src="img/fleurblanche.png">
+                <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
             </a>
             <figcaption class="nameParts">Expériences</figcaption>
         </figure>
@@ -53,7 +53,7 @@
     <div class="hibiscusButtons2">
         <figure>
             <a href="professionalSkill">
-                <img class="hibiscus2" alt="hibiscus2" src="img/fleurblanche.png">
+                <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
             </a>
             <figcaption class="nameParts">Compétences<br>Professionelles</figcaption>
         </figure>
@@ -64,7 +64,7 @@
         <div class="hibiscusButtons3">
             <figure>
                 <a href="training">
-                    <img class="hibiscus3" alt="hibiscus3" src="img/fleurblanche.png">
+                    <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
                 </a>
                 <figcaption class="nameParts">Formation</figcaption>
             </figure>
@@ -73,7 +73,7 @@
         <div class="hibiscusButtons4">
             <figure>
                 <a href="personalSkill">
-                    <img class="hibiscus4" alt="hibiscus4" src="img/fleurblanche.png">
+                    <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
                 </a>
                 <figcaption class="nameParts">Compétences<br>Personnelles</figcaption>
             </figure>
@@ -83,7 +83,7 @@
         <div class="hibiscusButtons5">
             <figure>
                 <a href="recommendation">
-                    <img class="hibiscus5" alt="hibiscus5" src="img/fleurblanche.png">
+                    <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
                 </a>
                 <figcaption class="nameParts">Recommandations</figcaption>
             </figure>
@@ -93,7 +93,7 @@
 
             <figure>
                 <a href="contact">
-                    <img class="hibiscus6" alt="hibiscus6" src="img/fleurblanche.png">
+                    <img class="hibiscus6" alt="hibiscus6" src="img/fleur.png">
                 </a>
                 <figcaption class="nameParts">Contact</figcaption>
             </figure>
