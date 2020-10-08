@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
@@ -36,16 +37,70 @@
         </div>
     </nav>
 
-    <div class="profilePicture">
-        <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+    <div class="headerPart1">
+        <div class="profilePicture">
+            <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+        </div>
+        <div class="hibiscusButtons1">
+            <figure>
+                <a href="experience">
+                    <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Expériences</figcaption>
+            </figure>
+        </div>
+        <div class="hibiscusButtons2">
+            <figure>
+                <a href="professionalSkill">
+                    <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
+                </a>
+                <figcaption class="nameParts">Compétences<br>Professionelles</figcaption>
+            </figure>
+        </div>
     </div>
+    <div class="headerPart2">
+        <div class="nameOfStitch">
+            <div class="hibiscusButtons3">
+                <figure>
+                    <a href="training">
+                        <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
+                    </a>
+                    <figcaption class="nameParts">Formation</figcaption>
+                </figure>
+            </div>
+            <h1 class="h1Name">Expérience-626 "Stitch"</h1>
+            <div class="hibiscusButtons4">
+                <figure>
+                    <a href="personalSkill">
+                        <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
+                    </a>
+                    <figcaption class="nameParts">Compétences<br>Personnelles</figcaption>
+                </figure>
+            </div>
+        </div>
+        <p class="infoContacts">Stitch Pelekai</p>
+        <p class="infoContacts">Impasse des hibiscus, Hawaï 96800</p>
+        <p class="infoContacts">stitch@example.com</p>
+        <div class="jobOfStitch">
+            <div class="hibiscusButtons5">
+                <figure>
+                    <a href="recommendation">
+                        <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
+                    </a>
+                    <figcaption class="nameParts">Recommandations</figcaption>
+                </figure>
+            </div>
+            <h2 class="h2Job">Professeur de Français</h2>
+            <div class="hibiscusButtons6">
 
-    <div class="nameOfStitch">
-        <h1>Expérience-626 "Stitch"</h1>
-        <h2>Professeur de Français</h2>
-    </div>
-    <div class="borderLine">
-
+                <figure>
+                    <a href="contact">
+                        <img class="hibiscus6" alt="hibiscus6" src="img/fleur.png">
+                    </a>
+                    <figcaption class="nameParts">Contact</figcaption>
+                </figure>
+            </div>
+        </div>
     </div>
 </header>
 <body>
@@ -252,7 +307,8 @@
     </div>
     <div class="logo">
         <li><a href="https://www.facebook.com/StichOfficia/" class="fab fa-facebook-f fa-2x"></a></li>
-        <li><a href="https://twitter.com/hashtag/InternationalStitchDay?src=hashtag_click" class="fab fa-twitter fa-2x"></a></li>
+        <li><a href="https://twitter.com/hashtag/InternationalStitchDay?src=hashtag_click"
+               class="fab fa-twitter fa-2x"></a></li>
         <li><a href="https://www.instagram.com/stitch_disney626/?hl=fr" class="fab fa-instagram fa-2x"></a></li>
         <li><a href="https://fr.linkedin.com/" class="fab fa-linkedin-in fa-2x"></a></li>
     </div>
