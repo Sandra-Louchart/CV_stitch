@@ -247,7 +247,7 @@ header {
 .nameParts {
     font-family: var(--font-title);
     font-size: 24px;
-    color: var(--light);
+    color: var(--dark);
 }
 
 .infoContacts {
