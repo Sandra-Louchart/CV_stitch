@@ -13,7 +13,7 @@ $experiences = [
 <div class="exp_div">
     <?php for ($i = 0; $i < count($experiences['years']); $i++) {
         ?>
-    <div class="exp<?= $i + 1 ?>">
+    <div class="exp">
         <?php foreach ($experiences as $job => $experience) { ?>
             <p class="<?= $job ?>"><?= $experiences[$job][$i]; ?></p>
         <?php }
