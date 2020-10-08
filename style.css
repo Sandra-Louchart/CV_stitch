@@ -1,21 +1,23 @@
 :root {
-    --main-color: #2e98bf;
-    --secondary-color: #9dc5d4;
+    --main-color: #5379A8;
+    --secondary-color: #605161;
     --space-padding: 8px;
     --space-padding2: 16px;
     --space-padding4: 32px;
     --space-margin: 8px;
     --light: #d9dee2;
     --dark: #181c1c;
-    --font-family: 'EB Garamond', serif;
+    --font-family: 'Roboto', sans-serif;
     --font-familyh: 'Architects Daughter', sans-serif;
-    --font-text: 'EB Garamond', serif;
+    --font-text: 'Roboto', sans-serif;
     --font-title: 'Architects Daughter', sans-serif;
     --font-size-nav: 24px;
     --nav-height: 75px;
 }
 body {
-    background-color : var(--secondary-color);
+    background-color : #605161;
+
+    opacity: 90%;
     font-family: var(--font-text);
     margin: 0;
     padding-top: var(--nav-height);
@@ -135,9 +137,15 @@ nav a:hover {
 }
 /* header */
 header {
-    background-color: var(--secondary-color);
+    background-image: url("img/foret_colo_jour.jpg");
     height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
+
+
 .imgProfile {
     margin-top: 8px;
     max-width: 400px;
@@ -174,10 +182,10 @@ header {
 }
 .h1Name {
     margin-bottom: 0;
-    font-size: 48px;
+    font-size: 64px;
 }
 .h2Job {
-    font-size: 40px;
+    font-size: 48px;
 }
 .hibiscus1, .hibiscus2, .hibiscus3, .hibiscus4, .hibiscus5, .hibiscus6 {
     max-width: 160px;
@@ -189,25 +197,30 @@ header {
 }
 
 .hibiscusButtons1 {
-    margin-bottom: 90px;
+    margin-bottom: 160px;
 }
 
 .hibiscusButtons2 {
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     order: 3;
 }
 
 .hibiscusButtons3 {
-    margin-bottom: 38px;
+    margin-bottom: 150px;
+}
+
+.hibiscusButtons4 {
+    margin-bottom: 110px;
 }
 
 .hibiscusButtons5,.hibiscusButtons6{
-    margin-bottom: 30px;
+margin-top: 30px;
 }
 
 .nameParts {
     font-family: var(--font-title);
     font-size: 24px;
+    color: var(--light);
 }
 .infoContacts {
     margin-top: 0;
@@ -314,9 +327,15 @@ header {
 
 }
 /* Compétences */
-
+.personalSkills {
+    background-image: url("img/PersonalSkills.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
+
+
 .alignh2 {
     text-align: center;
     margin-bottom: 5px;
