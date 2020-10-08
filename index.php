@@ -6,7 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+          integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+          crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <title>Cv de Stitch</title>
@@ -94,19 +96,18 @@
     </div>
 </header>
 <body>
-<hr>
 <section class="myJob" id="experience">
-    <h2 class="myExperiences">Expériences</h2>
+    <h2 class="myExperiences">EXPÉRIENCES</h2>
     <div class="experiences">
         <div class="company">
             <p class="job">2000-2002 <br>
-                Expérience 628 <br> Jumba industrie</p>
+                EXPÉRIENCES 628 <br> Jumba industrie</p>
             <p class="description">J'ai été la fabuleuse expérience de Jumba durant 2 ans avant de m'enfuire pour
                 eviter une mort certaine</p>
         </div>
         <div class="company">
             <p class="job">2002-2005 <br>
-                Destructeur <br> Jumba entreprise</p>
+                DESTRUCTEUR <br> Jumba entreprise</p>
             <p class="description">Je suis venu ici pour détruire le monde. J'ai pu créer de nombreux projet pour
                 arriver à mon objectif
                 final...</p>
@@ -128,14 +129,9 @@
         </div>
     </div>
 </section>
-<<<<<<< HEAD
-<hr>
 <div class="alignh2">
     <h2 class="h2titleskill"> Compétences</h2>
 </div>
-
-=======
->>>>>>> ad5aee2119614d7a6c7e36806e45344932258e40
 <section class="competences">
     <div class="alignh2">
         <h2 class="h2titleskill"> COMPETENCES </h2>
@@ -251,38 +247,38 @@
 
     </div>
 </section>
-<<<<<<< HEAD
-
-<hr>
-=======
->>>>>>> ad5aee2119614d7a6c7e36806e45344932258e40
-<section>
-    <h2 class="myRecommendation" id="recommendation">Recommandations  </h2>
-    <figure class="reference">
+<section class="reco">
+    <h2 class="myRecommendation" id="recommendation">RECOMMANDATIONS </h2>
+    <div class="imgRecommendation1">
         <img src="https://vignette.wikia.nocookie.net/disney/images/3/3d/Profile_-_Jumba.jpg/revision/latest/scale-to-width-down/515?cb=20190312074022"
              alt="Jumba Jookiba">
-        <figcaption>Ma plus belle création, je lui fait confiance</figcaption>
-    </figure>
-    <figure class="reference">
+        <p class="texteRecommendation1">Ma plus belle création, je lui fait confiance "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+    </div>
+    <div class="imgRecommendation2">
+        <p class="texteRecommendation2">J'ai vécue de belles expériences avec lui "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
         <img src="https://vignette.wikia.nocookie.net/disney/images/1/1f/Profile_-_Lilo.png/revision/latest?cb=20190312072611"
              alt="Lilo Pelekai">
-        <figcaption>J'ai vécue de belles expériences avec lui</figcaption>
-    </figure>
-    <figure class="reference">
+    </div>
+    <div class="imgRecommendation1">
         <img src="https://vignette.wikia.nocookie.net/disney/images/9/9f/Profile_-_Grand_Councilwoman.jpeg/revision/latest/scale-to-width-down/516?cb=20190321135914"
              alt="Grande conseillère">
-        <figcaption>Je n'aime pas crimnel... Stitch a changé</figcaption>
-    </figure>
-    <figure class="reference">
+        <p class="texteRecommendation1">Je n'aime pas crimnel... Stitch a changé "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" </p>
+    </div>
+    <div class="imgRecommendation2">
+        <p class="texteRecommendation2">J'étais trop occuper à manger mais stitch est plutôt compétent "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
         <img src="https://www.animationsource.org/sites_content/lilo_stitch/upload/fanchars/pic_detail579e774ccb536.png"
              alt="Reuben">
-        <figcaption>J'étais trop occuper à manger mais stitch est plutôt compétent</figcaption>
-    </figure>
+
+    </div>
 
 </section>
 
 
-<section class="contact">
+<section class="contacts">
     <h2 id="contact" class="contact">Ecrivez moi </h2>
     <form action="mailto:stitch@example.com" method="post">
         <div>
@@ -311,7 +307,8 @@
     </div>
     <div class="logo">
         <li><a href="https://www.facebook.com/StichOfficia/" class="fab fa-facebook-f fa-2x"></a></li>
-        <li><a href="https://twitter.com/hashtag/InternationalStitchDay?src=hashtag_click" class="fab fa-twitter fa-2x"></a></li>
+        <li><a href="https://twitter.com/hashtag/InternationalStitchDay?src=hashtag_click"
+               class="fab fa-twitter fa-2x"></a></li>
         <li><a href="https://www.instagram.com/stitch_disney626/?hl=fr" class="fab fa-instagram fa-2x"></a></li>
         <li><a href="https://fr.linkedin.com/" class="fab fa-linkedin-in fa-2x"></a></li>
     </div>
