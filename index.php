@@ -82,13 +82,13 @@
         </div>
     </div>
 </section>
-<section class="competences">
+<section class="skill">
     <div class="alignh2">
         <h2 class="h2titleskill"> COMPETENCES </h2>
     </div>
 
     <div class="alignh3">
-        <h3 class="h3titleskill "> PROFESSIONNELLES</h3>
+        <h3 class="h3titleskill " id='professionnalSkill'> PROFESSIONNELLES</h3>
     </div>
     <div class="skill1">
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/drapeau.png"
@@ -98,7 +98,7 @@
         </div>
 
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/noun_Brain_817.png"
-                                                                   alt="icone cerveau"/> INTELLIGENCE CYBERNETIQUE </p>
+                                                                   alt="icone cerveau"/> INTELLIGENCE CYBERN&Eacute;TIQUE </p>
             <p> Avec son esprit aiguisé Stitch est un génie et n'est jamais pris au dépourvu ! Un atout avec des élèves
                 !
         </div>
@@ -110,20 +110,20 @@
                 ce que les élèves manifestent
         </div>
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/force.png" alt="icone bras"/>
-                INVULNERABLE </p>
+                INVULN&Eacute;RABLE </p>
             <p> Ignifuge et à l'épreuve des balles Sticth est en mesure de faire face à toutes les difficultés même
                 complètement imprévues !
         </div>
     </div>
 </section>
 <section>
-    <div class="divbacgroundcomppers">
+    <div class="skill">
         <div class="alignh2">
             <h2 class="h2titleskill"> COMPETENCES</h2>
         </div>
 
         <div class="alignh3">
-            <h3 class="h3titleskill">PERSONNELLES</h3>
+            <h3 class="h3titleskill" id='personnalSkill'>PERSONNELLES</h3>
         </div>
         <div class="skill1">
 
@@ -156,9 +156,9 @@
 </section>
 
 <div class="alignh2">
-    <h2 class="h2titleskill"> DIPLOMES </h2>
+    <h2 class="h2titleskill" id='training'> FORMATION </h2>
 </div>
-<section class="Diplomes">
+<section class="training">
     <div class="experiences">
         <div class="highschool">
             <p class="studyyear">1999-2000
@@ -170,7 +170,7 @@
         </div>
 
         <div class="highschool">
-            <p class="studyyear">1995-1998
+            <p class="studyyear">1997-1998
                 <br>
                 INGENIEUR TERRAFORMEUR
             </p>
@@ -180,7 +180,7 @@
     </div>
     <div class="experiences">
         <div class="highschool">
-            <p class="studyyear">1995-1998
+            <p class="studyyear">1996-1997
                 <br>
                 BTS GEOLOGIE
             </p>
