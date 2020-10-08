@@ -6,9 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
           integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
           crossorigin="anonymous"/>
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <title>Cv de Stitch</title>
@@ -44,16 +46,20 @@
     </div>
     <div class="hibiscusButtons1">
         <figure>
-            <a href="experience">
-                <img class="hibiscus1" alt="hibiscus1" src="img/fleurblanche.png">
+
+            <a href="#experience">
+                <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
+
             </a>
             <figcaption class="nameParts">Expériences</figcaption>
         </figure>
     </div>
     <div class="hibiscusButtons2">
         <figure>
-            <a href="professionalSkill">
-                <img class="hibiscus2" alt="hibiscus2" src="img/fleurblanche.png">
+
+            <a href="#professionalSkill">
+                <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
+
             </a>
             <figcaption class="nameParts">Compétences<br>Professionelles</figcaption>
         </figure>
@@ -63,8 +69,10 @@
     <div class="nameOfStitch">
         <div class="hibiscusButtons3">
             <figure>
-                <a href="training">
-                    <img class="hibiscus3" alt="hibiscus3" src="img/fleurblanche.png">
+
+                <a href="#training">
+                    <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
+
                 </a>
                 <figcaption class="nameParts">Formation</figcaption>
             </figure>
@@ -72,8 +80,10 @@
         <h1 class="h1Name">Expérience-626 "Stitch"</h1>
         <div class="hibiscusButtons4">
             <figure>
-                <a href="personalSkill">
-                    <img class="hibiscus4" alt="hibiscus4" src="img/fleurblanche.png">
+
+                <a href="#personalSkill">
+                    <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
+
                 </a>
                 <figcaption class="nameParts">Compétences<br>Personnelles</figcaption>
             </figure>
@@ -82,8 +92,10 @@
     <div class="jobOfStitch">
         <div class="hibiscusButtons5">
             <figure>
-                <a href="recommendation">
-                    <img class="hibiscus5" alt="hibiscus5" src="img/fleurblanche.png">
+
+                <a href="#recommendation">
+                    <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
+
                 </a>
                 <figcaption class="nameParts">Recommandations</figcaption>
             </figure>
@@ -92,8 +104,10 @@
         <div class="hibiscusButtons6">
 
             <figure>
-                <a href="contact">
-                    <img class="hibiscus6" alt="hibiscus6" src="img/fleurblanche.png">
+
+                <a href="#contact">
+                    <img class="hibiscus6" alt="hibiscus6" src="img/fleur.png">
+
                 </a>
                 <figcaption class="nameParts">Contact</figcaption>
             </figure>
@@ -141,7 +155,7 @@
     </div>
 
     <div class="alignh3">
-        <h3 class="h3titleskill " id='professionnalSkill'> PROFESSIONNELLES</h3>
+        <h3 class="h3titleskill " id='professionalSkill'> PROFESSIONNELLES</h3>
     </div>
     <div class="skill1">
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/drapeau.png"
@@ -170,13 +184,15 @@
     </div>
 </section>
 <section>
+
     <div class="personalSkills">
+
         <div class="alignh2">
             <h2 class="h2titleskill"> COMP&Eacute;TENCES</h2>
         </div>
 
         <div class="alignh3">
-            <h3 class="h3titleskill" id='personnalSkill'>PERSONNELLES</h3>
+            <h3 class="h3titleskill" id='personalSkill'>PERSONNELLES</h3>
         </div>
         <div class="skill1">
 
