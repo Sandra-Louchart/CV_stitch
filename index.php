@@ -6,106 +6,126 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+          integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+          crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Cv de Stitch</title>
 </head>
 <header>
-    <nav>
-        <a href="#home" class="home"><img src="img/profil.png" alt="Home"></a>
-        <div class="nav-nom">
-            <h2>Expérience 626</h2>
-        </div>
-
-        <div class="menu-items">
-            <div class="items" id="menu">
-                <a href="#home" class="home-burger"><img src="img/profil.png" alt="Home"></a>
-                <a href="#experience">Expériences</a>
-                <a href="#skill">Compétences</a>
-                <a href="#education">Formation</a>
-                <a href="#recommendation">Recommendation</a>
-                <a href="#contact" class="contact">Contact</a>
-                <a href="#" class="close"><img src="img/close.png" alt="close"></a>
-            </div>
-            <a class="burger" href="#menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </a>
-        </div>
-    </nav>
-
-    <div class="headerPart1">
-        <div class="profilePicture">
-            <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
-        </div>
-        <div class="hibiscusButtons1">
-            <figure>
-                <a href="experience">
-                    <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
-                </a>
-                <figcaption class="nameParts">Expériences</figcaption>
-            </figure>
-        </div>
-        <div class="hibiscusButtons2">
-            <figure>
-                <a href="professionalSkill">
-                    <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
-                </a>
-                <figcaption class="nameParts">Professionelles</figcaption>
-            </figure>
-        </div>
+<nav>
+    <a href="#home" class="home"><img src="img/profil.png" alt="Home"></a>
+    <div class="nav-nom">
+        <h2>Expérience 626</h2>
     </div>
-    <div class="headerPart2">
-        <div class="nameOfStitch">
+
+    <div class="menu-items">
+        <div class="items" id="menu">
+            <a href="#home" class="home-burger"><img src="img/profil.png" alt="Home"></a>
+            <a href="#experience">Expériences</a>
+            <a href="#skill">Compétences</a>
+            <a href="#education">Formation</a>
+            <a href="#recommendation">Recommendation</a>
+            <a href="#contact" class="contact">Contact</a>
+            <a href="#" class="close"><img src="img/close.png" alt="close"></a>
+        </div>
+        <a class="burger" href="#menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
+    </div>
+</nav>
+
+<div class="headerPart1">
+    <div class="profilePicture">
+        <img src="https://ekladata.com/IN2A71FWEoNqUVd1vseqvGQlqBQ.png" alt="imgProfile" class="imgProfile">
+    </div>
+    <div class="hibiscusButtons1">
+        <figure>
+
+            <a href="#experience">
+                <img class="hibiscus1" alt="hibiscus1" src="img/fleur.png">
+
+            </a>
+            <figcaption class="nameParts">Expériences</figcaption>
+        </figure>
+    </div>
+    <div class="hibiscusButtons2">
+        <figure>
+
+            <a href="#professionalSkill">
+                <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
+
+            </a>
+            <figcaption class="nameParts">Compétences<br>Professionelles</figcaption>
+        </figure>
+    </div>
+</div>
+<div class="headerPart2">
+    <div class="nameOfStitch">
+        <div class="hibiscusButtons3">
             <figure>
-                <a href="training">
+
+                <a href="#training">
                     <img class="hibiscus3" alt="hibiscus3" src="img/fleur.png">
+
                 </a>
                 <figcaption class="nameParts">Formation</figcaption>
             </figure>
-            <h1 class="h1Name">Expérience-626 "Stitch"</h1>
+        </div>
+        <h1 class="h1Name">Expérience-626 "Stitch"</h1>
+        <div class="hibiscusButtons4">
             <figure>
-                <a href="personalSkill">
+
+                <a href="#personalSkill">
                     <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
+
                 </a>
-                <figcaption class="nameParts">Personnelles</figcaption>
+                <figcaption class="nameParts">Compétences<br>Personnelles</figcaption>
             </figure>
         </div>
-        <p class="infoContacts">Stitch Pelekai</p>
-        <p class="infoContacts">Impasse des hibiscus, Hawaï 96800</p>
-        <p class="infoContacts">stitch@example.com</p>
-        <div class="jobOfStitch">
+    </div>
+    <div class="jobOfStitch">
+        <div class="hibiscusButtons5">
             <figure>
-                <a href="recommendation">
+
+                <a href="#recommendation">
                     <img class="hibiscus5" alt="hibiscus5" src="img/fleur.png">
+
                 </a>
                 <figcaption class="nameParts">Recommandations</figcaption>
             </figure>
-            <h2 class="h2Job">Professeur de Français</h2>
+        </div>
+        <h2 class="h2Job">Professeur de Français</h2>
+        <div class="hibiscusButtons6">
+
             <figure>
-                <a href="contact">
+
+                <a href="#contact">
                     <img class="hibiscus6" alt="hibiscus6" src="img/fleur.png">
+
                 </a>
                 <figcaption class="nameParts">Contact</figcaption>
             </figure>
         </div>
     </div>
+</div>
 </header>
 <body>
 <section class="myJob" id="experience">
-    <h2 class="myExperiences">Expériences:</h2>
+    <h2 class="myExperiences">EXPÉRIENCES</h2>
     <div class="experiences">
         <div class="company">
             <p class="job">2000-2002 <br>
-                Expérience 628 <br> Jumba industrie</p>
+                EXPÉRIENCES 628 <br> Jumba industrie</p>
             <p class="description">J'ai été la fabuleuse expérience de Jumba durant 2 ans avant de m'enfuire pour
                 eviter une mort certaine</p>
         </div>
         <div class="company">
             <p class="job">2002-2005 <br>
-                Destructeur <br> Jumba entreprise</p>
+                DESTRUCTEUR <br> Jumba entreprise</p>
             <p class="description">Je suis venu ici pour détruire le monde. J'ai pu créer de nombreux projet pour
                 arriver à mon objectif
                 final...</p>
@@ -129,11 +149,11 @@
 </section>
 <section class="competences">
     <div class="alignh2">
-        <h2 class="h2titleskill"> COMPETENCES </h2>
+        <h2 class="h2titleskill"> COMP&Eacute;TENCES </h2>
     </div>
 
     <div class="alignh3">
-        <h3 class="h3titleskill "> PROFESSIONNELLES</h3>
+        <h3 class="h3titleskill " id='professionalSkill'> PROFESSIONNELLES</h3>
     </div>
     <div class="skill1">
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/drapeau.png"
@@ -143,7 +163,7 @@
         </div>
 
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/noun_Brain_817.png"
-                                                                   alt="icone cerveau"/> INTELLIGENCE CYBERNETIQUE </p>
+                                                                   alt="icone cerveau"/> INTELLIGENCE CYBERN&Eacute;TIQUE </p>
             <p> Avec son esprit aiguisé Stitch est un génie et n'est jamais pris au dépourvu ! Un atout avec des élèves
                 !
         </div>
@@ -155,20 +175,22 @@
                 ce que les élèves manifestent
         </div>
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/force.png" alt="icone bras"/>
-                INVULNERABLE </p>
+                INVULN&Eacute;RABLE </p>
             <p> Ignifuge et à l'épreuve des balles Sticth est en mesure de faire face à toutes les difficultés même
                 complètement imprévues !
         </div>
     </div>
 </section>
 <section>
-    <div class="divbacgroundcomppers">
+
+    <div class="personalSkills">
+
         <div class="alignh2">
-            <h2 class="h2titleskill"> COMPETENCES</h2>
+            <h2 class="h2titleskill"> COMP&Eacute;TENCES</h2>
         </div>
 
         <div class="alignh3">
-            <h3 class="h3titleskill">PERSONNELLES</h3>
+            <h3 class="h3titleskill" id='personalSkill'>PERSONNELLES</h3>
         </div>
         <div class="skill1">
 
@@ -201,9 +223,9 @@
 </section>
 
 <div class="alignh2">
-    <h2 class="h2titleskill"> DIPLOMES </h2>
+    <h2 class="h2titleskill" id='training'> FORMATION </h2>
 </div>
-<section class="Diplomes">
+<section class="diplomes">
     <div class="experiences">
         <div class="highschool">
             <p class="studyyear">1999-2000
@@ -215,7 +237,7 @@
         </div>
 
         <div class="highschool">
-            <p class="studyyear">1995-1998
+            <p class="studyyear">1997-1998
                 <br>
                 INGENIEUR TERRAFORMEUR
             </p>
@@ -225,7 +247,7 @@
     </div>
     <div class="experiences">
         <div class="highschool">
-            <p class="studyyear">1995-1998
+            <p class="studyyear">1996-1997
                 <br>
                 BTS GEOLOGIE
             </p>
@@ -242,34 +264,39 @@
 
     </div>
 </section>
-<section>
-    <h2>Mes recommendations : </h2>
-    <figure class="reference">
+<section class="reco">
+    <h2 class="myRecommendation" id="recommendation">RECOMMANDATIONS </h2>
+    <div class="imgRecommendation1">
         <img src="https://vignette.wikia.nocookie.net/disney/images/3/3d/Profile_-_Jumba.jpg/revision/latest/scale-to-width-down/515?cb=20190312074022"
              alt="Jumba Jookiba">
-        <figcaption>Ma plus belle création, je lui fait confiance</figcaption>
-    </figure>
-    <figure class="reference">
+        <p class="texteRecommendation1">Ma plus belle création, je lui fait confiance "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+    </div>
+    <div class="imgRecommendation2">
+        <p class="texteRecommendation2">J'ai vécue de belles expériences avec lui "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
         <img src="https://vignette.wikia.nocookie.net/disney/images/1/1f/Profile_-_Lilo.png/revision/latest?cb=20190312072611"
              alt="Lilo Pelekai">
-        <figcaption>J'ai vécue de belles expériences avec lui</figcaption>
-    </figure>
-    <figure class="reference">
+    </div>
+    <div class="imgRecommendation1">
         <img src="https://vignette.wikia.nocookie.net/disney/images/9/9f/Profile_-_Grand_Councilwoman.jpeg/revision/latest/scale-to-width-down/516?cb=20190321135914"
              alt="Grande conseillère">
-        <figcaption>Je n'aime pas crimnel... Stitch a changé</figcaption>
-    </figure>
-    <figure class="reference">
+        <p class="texteRecommendation1">Je n'aime pas crimnel... Stitch a changé "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" </p>
+    </div>
+    <div class="imgRecommendation2">
+        <p class="texteRecommendation2">J'étais trop occuper à manger mais stitch est plutôt compétent "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
         <img src="https://www.animationsource.org/sites_content/lilo_stitch/upload/fanchars/pic_detail579e774ccb536.png"
              alt="Reuben">
-        <figcaption>J'étais trop occuper à manger mais stitch est plutôt compétent</figcaption>
-    </figure>
+
+    </div>
 
 </section>
 
 
-<section class="contact">
-    <h2 id="contact">Ecrivez moi </h2>
+<section class="contacts">
+    <h2 id="contact" class="contact">Ecrivez moi </h2>
     <form action="mailto:stitch@example.com" method="post">
         <div>
             <label for="name">Nom :</label>
@@ -288,7 +315,7 @@
         </div>
     </form>
 </section>
-
+</body>
 
 <footer>
     <div class=quote>
@@ -297,10 +324,10 @@
     </div>
     <div class="logo">
         <li><a href="https://www.facebook.com/StichOfficia/" class="fab fa-facebook-f fa-2x"></a></li>
-        <li><a href="https://twitter.com/hashtag/InternationalStitchDay?src=hashtag_click" class="fab fa-twitter fa-2x"></a></li>
+        <li><a href="https://twitter.com/hashtag/InternationalStitchDay?src=hashtag_click"
+               class="fab fa-twitter fa-2x"></a></li>
         <li><a href="https://www.instagram.com/stitch_disney626/?hl=fr" class="fab fa-instagram fa-2x"></a></li>
         <li><a href="https://fr.linkedin.com/" class="fab fa-linkedin-in fa-2x"></a></li>
     </div>
 </footer>
-</body>
 </html>
