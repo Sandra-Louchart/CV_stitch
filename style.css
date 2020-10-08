@@ -187,9 +187,24 @@ header {
     transform: scale(1.3);
     transition: 1s all;
 }
+
+.hibiscusButtons1 {
+    margin-bottom: 90px;
+}
+
 .hibiscusButtons2 {
+    margin-bottom: 50px;
     order: 3;
 }
+
+.hibiscusButtons3 {
+    margin-bottom: 38px;
+}
+
+.hibiscusButtons5,.hibiscusButtons6{
+    margin-bottom: 30px;
+}
+
 .nameParts {
     font-family: var(--font-title);
     font-size: 24px;
