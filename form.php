@@ -1,5 +1,4 @@
-<section class="contact">
-    <h2 id="contact">Ecrivez moi </h2>
+    <h2 id="contact">Me contacter</h2>
 
     <?php
     $subjects = [
@@ -17,12 +16,12 @@
         }
 
         if (!key_exists($data['subject'], $subjects)) {
-            $errors[] = 'Valeur incorect du sujet';
+            $errors[] = 'Valeur incorrecte du sujet';
         }
 
         if (empty($data['user_email'])) {
             $errors[] = 'Veuillez renseigner un email';
-        } elseif (!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
+        } elseif (!filter_var($data['user_email'], FILTER_VALIDATE_EMAIL)) {
             $errors[] = 'format de l\'email incorrect';
         }
 
@@ -33,8 +32,9 @@
                 <?php endforeach; ?>
             </ul>
         <?php else :
-            echo 'Merci !'; ?> <br> <?= 'Stitch content';
-        endif;
+            ?> <p><?= 'Merci !'; ?></p>
+            <p><?= 'Stitch content'; ?></p>
+        <?php endif;
     endif;
     ?>
 
@@ -45,8 +45,8 @@
             <input type="text"
                    id="name"
                    name="user_name"
-                   placeholder="Moi m'appelle stitch"
-                   value=""<?= $data['user_name'] ?? '' ?>
+                   placeholder="Stitch"
+                   value="<?= $data['user_name'] ?? '' ?>"
             >
         </div>
         <div>
@@ -55,7 +55,7 @@
                    id="email"
                    name="user_email"
                    placeholder="lilo@example.com"
-                   value=""<?= $data['user_email'] ?? '' ?>
+                   value="<?= $data['user_email'] ?? '' ?>"
             >
         </div>
         <div>
@@ -66,7 +66,7 @@
                         <?php if (!empty($data['subject']) && $optionValue === $data['subject']) : ?>
                             selected
                         <?php endif; ?>
-                            value="<?= $optionValue ?>">
+                        value="<?= $optionValue ?>">
                         <?= $subject ?>
                     </option>
                 <?php endforeach; ?>
@@ -79,11 +79,9 @@
                       rows="4"
                       cols="50"
                       placeholder="Je m'appelle Stitch...."
-                      value=""<?= $data['user_name'] ?? '' ?>
-            ></textarea>
+            ><?= $data['user_message'] ?? '' ?></textarea>
         </div>
         <div class="button">
-            <button type="submit" id="btn">Envoyez</button>
+            <button type="submit" id="btn">Envoyer</button>
         </div>
     </form>
-</section>
