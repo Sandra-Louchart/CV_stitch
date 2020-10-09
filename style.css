@@ -568,6 +568,10 @@ header {
     font-family: var(--font-family);
     font-size: 22px;
     padding-left: 16px;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    display: block;
+    justify-content: center;
 }
 .imgRecommendation1 img{
     display: block;
@@ -580,12 +584,17 @@ header {
 .texteRecommendation2{
     font-family: var(--font-family);
     font-size: 22px;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    display: block;
+    justify-content: center;
 }
 .imgRecommendation2 img{
     display: block;
     border-radius: 8%;
     width: 160px;
     height: 160px;
+    padding-left: 8px;
 
 }
 .imgRecommendation1{

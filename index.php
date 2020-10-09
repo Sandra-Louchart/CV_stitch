@@ -269,24 +269,24 @@
     <div class="imgRecommendation1">
         <img src="https://vignette.wikia.nocookie.net/disney/images/3/3d/Profile_-_Jumba.jpg/revision/latest/scale-to-width-down/515?cb=20190312074022"
              alt="Jumba Jookiba">
-        <p class="texteRecommendation1">Ma plus belle création, je lui fait confiance "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+        <p class="texteRecommendation1">Courage est ma première pensée lorsque je pense à Stitch, il a su en faire preuve au cours de ses différents postes dans mon
+        industrie. Il a marqué la compagnie par sa persévérance et sa détermination.</p>
     </div>
     <div class="imgRecommendation2">
-        <p class="texteRecommendation2">J'ai vécue de belles expériences avec lui "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+        <p class="texteRecommendation2">Stitch est un collègue qui a su faire preuve de bravoure et de servitude pour atteindre son objectif. Il maintient son cap pour mener
+        l'équipe dans la direction souhaitée.</p>
         <img src="https://vignette.wikia.nocookie.net/disney/images/1/1f/Profile_-_Lilo.png/revision/latest?cb=20190312072611"
              alt="Lilo Pelekai">
     </div>
     <div class="imgRecommendation1">
         <img src="https://vignette.wikia.nocookie.net/disney/images/9/9f/Profile_-_Grand_Councilwoman.jpeg/revision/latest/scale-to-width-down/516?cb=20190321135914"
              alt="Grande conseillère">
-        <p class="texteRecommendation1">Je n'aime pas crimnel... Stitch a changé "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" </p>
+        <p class="texteRecommendation1">Lorsque j'ai rencontrée Stitch pour la première fois l'élément le plus marquant a été sa détermination face à l'adversité. Je suis
+        fière d'avoir pu travailler avec lui pour mener à bien nos différents projets.</p>
     </div>
     <div class="imgRecommendation2">
-        <p class="texteRecommendation2">J'étais trop occuper à manger mais stitch est plutôt compétent "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+        <p class="texteRecommendation2">J'ai rencontré Stitch lors d'un repas, nos objectifs communs nous ont emmené à nous retrouver sur différents projets professionnels. C'est un
+        membre moteur lors de projet d'envergure.</p>
         <img src="https://www.animationsource.org/sites_content/lilo_stitch/upload/fanchars/pic_detail579e774ccb536.png"
              alt="Reuben">
 
