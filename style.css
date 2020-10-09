@@ -225,6 +225,7 @@ header {
     border-radius: var(--border-radius);
     margin-bottom: 0;
     margin-top: 0;
+    text-shadow: 2px 2px var(--light);
 }
 
 .h1Name {
@@ -251,7 +252,7 @@ header {
 }
 
 .hibiscusButtons2 {
-    margin-bottom: 120px;
+    margin-bottom: 126px;
     order: 3;
 }
 
@@ -271,6 +272,7 @@ header {
     font-family: var(--font-title);
     font-size: var(--font-size-card-title);
     color: var(--light);
+    text-shadow: 2px 2px #1F2D3F;
 }
 
 .infoContacts {
@@ -284,7 +286,7 @@ header {
 @media screen and (max-width: 800px) {
     .imgProfile {
         max-width: 200px;
-        margin-top: var(--space-margin);
+        margin-top: var(--nav-height);
         height: auto;
     }
     .h1Name {
@@ -299,6 +301,7 @@ header {
         height: auto;
         font-size: 20px;
     }
+
     .hibiscus1, .hibiscus2, .hibiscus3, .hibiscus4, .hibiscus5, .hibiscus6 {
         display: none;
     }
@@ -322,6 +325,7 @@ header {
 .myExperiences {
     font-family: var(--font-title);
     font-size: var(--font-size-h2);
+    color: var(--light);
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 50px;
@@ -418,6 +422,8 @@ header {
     display : inline-block;
     color : var(--dark);
     font-family: var(--font-title);
+    margin-top: var(--nav-height);
+    margin-bottom: 50px;
 }
 
 .icone {
@@ -465,10 +471,6 @@ header {
         flex-direction: column;
         align-items: center;
     }
-
-    .skilldetail1 {
-        width: 60%;
-    }
 }
 
 .titreskilldetail {
@@ -476,6 +478,21 @@ header {
     font-size: var(--font-size-card-title);
     font-style: italic;
     font-family: var(--font-title)
+}
+
+@media screen and (max-width: 1200px ) {
+    .skill1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 70%;
+        height: 70%;
+    }
+    .skilldetail1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
 }
 
 /*SECTION EDUCATION*/
@@ -486,6 +503,10 @@ header {
     flex-wrap: wrap;
     margin-left: 16%;
     margin-right: 16%;
+}
+
+h2.h2training {
+    color: var(--light);
 }
 
 .diploma {
@@ -504,7 +525,7 @@ header {
     transition-property: background-color;
     transition-duration: 0.8s;
     overflow: hidden;
-    height: 70%;
+    height: 12em;
     width: 50%;
     background-color:var(--light);
     color : var(--dark);
@@ -579,12 +600,14 @@ header {
     font-family: var(--font-title);
     font-size: var(--font-size-h2);
     text-align: center;
+    color: var(--light);
     padding-bottom: 20px;
     margin-bottom: 50px;
 }
 .texteRecommendation1{
     font-family: var(--font-text);
     font-size: 22px;
+    color: var(--light);
     padding-left: var(--space-padding2);
     padding-bottom: 4%;
     padding-top: 4%;
@@ -606,6 +629,7 @@ header {
     justify-content: center;
     font-family: var(--font-text);
     font-size: var(--font-size-card-title);
+    color: var(--light);
 }
 .imgRecommendation2 img{
     display: block;
@@ -634,7 +658,7 @@ footer {
     background-color: var(--main-color);
     height: 40px;
     padding: var(--space-padding2);
-    margin-top: var(--space-padding4);
+    margin-top: var(--nav-height);
 }
 
 .quote {
@@ -699,6 +723,9 @@ footer {
 
 .contact h2 {
     font-family: var(--font-title);
+    color: var(--light);
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 input, select, textarea {

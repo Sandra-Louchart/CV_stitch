@@ -39,7 +39,7 @@
     ?>
 
 
-    <form action="" method="post">
+    <form action="#contact" method="post">
         <div>
             <label for="name">Nom :</label>
             <input type="text"

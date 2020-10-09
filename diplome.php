@@ -1,10 +1,10 @@
 <?php
 $diplomas = [
-    'years' => ['1994-1995', '1995-1998', '1995-1998', '1999-2000'],
+    'years' => ['1994-1995', '1995-1997', '1997-1998', '1999-2000'],
     'titles' => ['Apprenti Géologue', 'BTS Géologie', 'Ingénieur Terraformeur', 'Fugitif'],
-    'schools' => ['Ecole de Jumba', 'Lycée Professionnel de Tantalogue', 'Université de Tantalogue', 'Vaissea carcéral du système XD6545'],
+    'schools' => ['Ecole de Jumba', 'Lycée Professionnel de Tantalogue', 'Université de Tantalogue', 'Vaisseau carcéral du système XD6545'],
     'descriptions' => ['Année de mise à niveau en géologie.',
-        'Spécialisation en terraformation, géologie, vulcanologie, océanographie',
+        'Spécialisation en terraformation, géologie, vulcanologie, océanographie.',
         'Master en restructuration efficace des planètes par désintégration.',
         'Recherche et exploitation des failles d\'un vaisseau carcéral.'],
 ];

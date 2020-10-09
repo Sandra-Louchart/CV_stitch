@@ -25,7 +25,7 @@
             <a href="#experience">Expériences</a>
             <a href="#skill">Compétences</a>
             <a href="#training">Formation</a>
-            <a href="#recommendation">Recommendations</a>
+            <a href="#recommendation">Recommandations</a>
             <a href="#contact" class="contact_nav">Contact</a>
             <a href="#" class="close"><img src="img/close.png" alt="close"></a>
         </div>
@@ -51,7 +51,7 @@
     </div>
     <div class="hibiscusButtons2">
         <figure>
-            <a href="#professionalSkill">
+            <a href="#competence_pro">
                 <img class="hibiscus2" alt="hibiscus2" src="img/fleur.png">
             </a>
             <figcaption class="nameParts">Compétences<br>Professionelles</figcaption>
@@ -71,7 +71,7 @@
             <h1 class="h1Name">Expérience-626 "Stitch"</h1>
             <div class="hibiscusButtons4">
                 <figure>
-                    <a href="#personalSkills">
+                    <a href="#competence_perso">
                         <img class="hibiscus4" alt="hibiscus4" src="img/fleur.png">
                     </a>
                     <figcaption class="nameParts">Compétences<br>Personnelles</figcaption>
@@ -111,7 +111,7 @@ include 'experiences.php';
 </section>
 <section class="generalSkills" id="skill">
     <div class="alignh2">
-        <h2 class="h2titleskill"> COMP&Eacute;TENCES PROFESSIONNELLES</h2>
+        <h2 class="h2titleskill" id="competence_pro"> COMP&Eacute;TENCES PROFESSIONNELLES</h2>
     </div>
 
     <div class="skill1">
@@ -124,52 +124,48 @@ include 'experiences.php';
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/noun_Brain_817.png"
                                                                    alt="icone cerveau"/> INTELLIGENCE CYBERN&Eacute;TIQUE
             </p>
-            <p> Avec son esprit aiguisé Stitch est un génie et n'est jamais pris au dépourvu ! Un atout avec des élèves
-                !
+            <p> Avec son esprit aiguisé, Stitch est un génie et n'est jamais pris au dépourvu ! Un atout indéniable pour gérer des élèves !</p>
         </div>
     </div>
     <div class="skill1">
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/oeil.png" alt="icone oeil"/>
                 CLAIRVOYANT </p>
-            <p> Vision nocturne, rayons X et infrarouge, Stitch sait repérer les friandises et est attentif à
-                ce que les élèves manifestent.
+            <p> Vision nocturne, rayons X et infrarouge, Stitch sait repérer les friandises et est attentif aux besoins des élèves.</p>
         </div>
         <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/force.png" alt="icone bras"/>
                 INVULN&Eacute;RABLE </p>
-            <p> Ignifuge et à l'épreuve des balles Sticth est en mesure de faire face à toutes les difficultés même
-                complètement imprévues !
+            <p> Ignifuge et à l'épreuve des balles, Sticth est en mesure de faire face à toutes les difficultés, même les plus improbables.</p>
         </div>
     </div>
 
     <div class="personalSkills">
         <div class="alignh2">
-            <h2 class="h2titleskill"> COMP&Eacute;TENCES PERSONNELLES</h2>
+            <h2 class="h2titleskill" id="competence_perso"> COMP&Eacute;TENCES PERSONNELLES</h2>
         </div>
 
         <div class="skill1">
 
             <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/microoscope2.png"
                                                                        alt="icone microscope"/> MINUTIEUX </p>
-                <p>Particulièrement soigneux et précautionneux, Stitch aura à coeur d'assurer la protection physique des
+                <p>Particulièrement soigneux et précautionneux, Stitch aura à coeur d'assurer la protection des
                     élèves.</p>
             </div>
             <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/arrogant2.png"
                                                                        alt="icone arrogant"/> PRESTANCE </p>
-                <p> Mature, réfléchis et disposant d'un calme à toute épreuve, Stitch saura apporter avec patience
-                    écoute et soutien.
+                <p> Mature, réfléchi et disposant d'un calme à toute épreuve, Stitch saura apporter du soutien aux élèves avec patience et écoute.
                 </p>
             </div>
         </div>
         <div class="skill1">
             <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/vaisseau.png"
                                                                        alt="icone vaisseau spatial"/> RELATIVISE</p>
-                <p> Grâce à sa participation à des projets d'envergure, Stitch saura prendre du recul sur des sujets de
-                    fonds</p>
+                <p> Grâce à sa participation à des projets d'envergure, Stitch sait prendre du recul sur des sujets de
+                    fonds.</p>
             </div>
             <div class="skilldetail1"><p class="titreskilldetail"><img class="icone" src="img/equipe2.png"
                                                                        alt="icone equipe"/> COLLABORATIF </p>
                 <p> Stitch apprécie tout particulièrement les collaborations actives, Lilo pourra vous fournir toutes
-                    recommandations utiles</p>
+                    recommandations utiles.</p>
             </div>
 
         </div>
@@ -177,7 +173,7 @@ include 'experiences.php';
 
 </section>
 <div class="alignh2">
-    <h2 class="h2titleskill" id='training'> FORMATION </h2>
+    <h2 class="h2titleskill h2training" id='training'> FORMATION </h2>
 </div>
 
 <section class="Diplomes" id="diploma">
@@ -191,7 +187,7 @@ include 'experiences.php';
     <div class="imgRecommendation1">
         <img src="https://vignette.wikia.nocookie.net/disney/images/3/3d/Profile_-_Jumba.jpg/revision/latest/scale-to-width-down/515?cb=20190312074022"
              alt="Jumba Jookiba">
-        <p class="texteRecommendation1">Courage est ma première pensée lorsque je pense à Stitch, il a su en faire preuve au cours de ses différents postes dans mon
+        <p class="texteRecommendation1">Courage est ma première pensée lorsque je pense à Stitch. Il a su en faire preuve au cours de ses différents postes dans mon
         industrie. Il a marqué la compagnie par sa persévérance et sa détermination.</p>
     </div>
     <div class="imgRecommendation2">
@@ -203,11 +199,11 @@ include 'experiences.php';
     <div class="imgRecommendation1">
         <img src="https://vignette.wikia.nocookie.net/disney/images/9/9f/Profile_-_Grand_Councilwoman.jpeg/revision/latest/scale-to-width-down/516?cb=20190321135914"
              alt="Grande conseillère">
-        <p class="texteRecommendation1">Lorsque j'ai rencontrée Stitch pour la première fois l'élément le plus marquant a été sa détermination face à l'adversité. Je suis
+        <p class="texteRecommendation1">Lorsque j'ai rencontré Stitch pour la première fois, l'élément le plus marquant a été sa détermination face à l'adversité. Je suis
         fière d'avoir pu travailler avec lui pour mener à bien nos différents projets.</p>
     </div>
     <div class="imgRecommendation2">
-        <p class="texteRecommendation2">J'ai rencontré Stitch lors d'un repas, nos objectifs communs nous ont emmené à nous retrouver sur différents projets professionnels. C'est un
+        <p class="texteRecommendation2">J'ai rencontré Stitch lors d'un repas. Nos objectifs communs nous ont emmené à nous retrouver sur différents projets professionnels. C'est un
         membre moteur lors de projet d'envergure.</p>
         <img src="https://www.animationsource.org/sites_content/lilo_stitch/upload/fanchars/pic_detail579e774ccb536.png"
              alt="Reuben">
